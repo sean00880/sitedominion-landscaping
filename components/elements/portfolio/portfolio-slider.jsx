@@ -9,7 +9,6 @@ import portfolioList from '../../../data/portfolio-data';
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Lightbox from 'react-18-image-lightbox';
 
 
 const PortfolioSlider = () => {
@@ -19,18 +18,7 @@ const PortfolioSlider = () => {
     const images = lightboxImages;
     return (
         <>
-            {open && (
-                <Lightbox
-
-                    mainSrc={images[photoIndex]}
-                    nextSrc={images[(photoIndex + 1) % images.length]}
-                    prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                    onCloseRequest={() => setOpen(false)}
-                    onMovePrevRequest={() => setPhotoIndex((photoIndex + images.length - 1) % images.length)}
-                    onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % images.length)}
-                />
-            )}
-
+            
             <section className="portfolio-area pt-120 pb-90 portfolio-bg portfolio-full-width">
                 <div className="containers">
                     <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
