@@ -4,7 +4,7 @@
 	margin-bottom: -93px;
 }
 .newsletter-wrapper {
-	background: var(--clr-theme-1);
+	background: #252525;
 	padding: 53px 60px 17px;
 	border-radius: 10px;
 	position: relative;
@@ -85,7 +85,7 @@
 		content: "\f2b6";
 		font-family: "Font Awesome 5 Pro";
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		left: 30px;
 		top: 16px;
 	}
@@ -97,7 +97,7 @@
 // newsletter-4 style
 .style-4 {
 	&.newsletter-wrapper {
-		background: var(--clr-theme-1);
+		background: #252525;
 		padding: 53px 60px 21px;
 		border-radius: 10px;
 		position: relative;
@@ -141,8 +141,8 @@
 			margin-top: 15px;
 		}
 		&:hover{
-			background: var(--clr-theme-1);
-			border-color: var(--clr-theme-1);
+			background: #252525;
+			border-color: #252525;
 			color: var(--clr-common-white);
 		}
 	}

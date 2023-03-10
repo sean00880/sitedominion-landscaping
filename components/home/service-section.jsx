@@ -6,19 +6,21 @@ const ServiceSection = () => {
     return (
         <section className="services-area services-area-2">
          <div className="container">
+           
             <div className="services-wrapper services-wrapper-2">
+            <h2>Featured Landscaping Website Services</h2>
             {ServicesList &&
                 <div className="services-inner services-inner-2 wow fadeInUp" data-wow-delay=".3s">
                     <div className="row g-0">
                     {ServicesList.slice(0, 4).map ((item, num) => (
-                        <div className="col-lg-3 col-md-6" key={num}>
+                        <div className="col-lg-6 col-md-6 col-sm-12" key={num}>
                             <div className="single-service style-2">
                             <div className="service-img">
                                 <img src={item.serviceImg} alt="service-img"/>
                             </div>
                             <div className="single-service-content">
                                 <div className="service-icon">
-                                    <i className={item.serviceIcon}></i>
+                                    <img src={item.serviceIcon} className="icon" alt="service-img"/>
                                 </div>
                                 <h4 className="service-title"><Link href={`/service-details/${item.id}`}><a>{item.serviceTitle}</a></Link></h4>
                                 <p>{item.serviceDesc}</p>

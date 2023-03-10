@@ -132,7 +132,7 @@ const ServiceDetailsArea = ({ item }) => {
                                     <h4 className="sidebar-widget-title">Our Services</h4>
                                     <div className="sidebar-service-list">
                                         <ul>
-                                            <li><Link href="/service"><a>Green Technology</a></Link></li>
+                                            <li><Link href="/service"><a>Landscaping</a></Link></li>
                                             <li><Link href="/service"><a>Urban Gardening</a></Link></li>
                                             <li><Link href="/service"><a>Nursery/Tree Farm</a></Link></li>
                                             <li><Link href="/service"><a>Trimming & Pruning</a></Link></li>

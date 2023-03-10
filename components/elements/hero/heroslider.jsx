@@ -11,25 +11,25 @@ const HeroSlider = () => {
     const SliderItem = [
         {
             id: 1,
-            sliderBg: '/assets/img/banner/banner-1-1.jpg',
-            sliderSubtitle: 'Provides hassle-free backyard transformations',
-            sliderTitle: 'make dream gardening',
+            sliderBg: '/assets/img/banner/banner1.png',
+            sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
+            sliderTitle: 'Custom Web Design for Landscaping Businesses',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         },
         {
             id: 2,
-            sliderBg: '/assets/img/banner/banner-2-1.jpg',
-            sliderSubtitle: 'Provides hassle-free backyard transformations',
-            sliderTitle: 'Jik Flower Scaping',
+            sliderBg: '/assets/img/banner/banner1.png',
+            sliderSubtitle: 'we specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
+            sliderTitle: 'Get More Leads and Customers',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         },
         {
             id: 3,
-            sliderBg: '/assets/img/banner/banner-4-1.jpg',
-            sliderSubtitle: 'Provides hassle-free backyard transformations',
-            sliderTitle: 'k.i Flower plants',
+            sliderBg: '/assets/img/banner/banner1.png',
+            sliderSubtitle: 'we specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
+            sliderTitle: 'Experience the Best in Web Design',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         }
@@ -86,12 +86,12 @@ const HeroSlider = () => {
                                             </div>
                                             <div className="container pos-rel">
                                                 <div className="row align-items-center">
-                                                    <div className="col-lg-8 col-md-10">
+                                                    <div className="col-12">
                                                         <div className="banner-content banner-content1 banner-content1-1 pt-0">
+                                                            <h1 className="banner-title" style={{ textAlign: "center"}} data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                             <div className="banner-meta-text" data-animation="fadeInUp" data-delay=".3s">
                                                                 <span>{item.sliderSubtitle}</span>
                                                             </div>
-                                                            <h1 className="banner-title" data-animation="fadeInUp" data-delay=".5s">{item.sliderTitle}</h1>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
                                                                 <Link href="/contact"><a className="fill-btn-rounded">{item.sliderbtn}</a></Link>
                                                                 <Link href="/about"><a className="border-btn-rounded">{item.sliderbtn2}</a></Link>

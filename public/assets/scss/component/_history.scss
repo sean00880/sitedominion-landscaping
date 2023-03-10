@@ -66,14 +66,14 @@
 	padding: 40px 0;
 	position: relative;
 	@media #{$md,$sm,$xs} {
-		border-top: 1px solid var(--clr-theme-1);
+		border-top: 1px solid #252525;
 	}
 	&::before {
 		position: absolute;
 		content: "";
 		width: 1px;
 		height: 100%;
-		background: var(--clr-theme-1);
+		background: #252525;
 		left: 0px;
 		top: 0;
 	}

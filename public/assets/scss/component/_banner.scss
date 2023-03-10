@@ -17,16 +17,16 @@
 	}
 }
 .banner-850 {
-	min-height: 850px;
+	min-height: 82vh;
 	position: relative;
 	@media #{$md} {
-		min-height: 700px;
+		min-height: 91vh;
 	}
 	@media #{$sm,$xs} {
-		min-height: 700px;
+		min-height: 91vh;
 	}
 	@media #{$xxs} {
-		min-height: 700px;
+		min-height: 92vh;
 	}
 }
 .banner-900 {
@@ -61,7 +61,7 @@
 	background-repeat: no-repeat;
 	background-position: center center;
 	z-index: -1;
-	background-color: var(--clr-common-white);
+	background-color: #e7e7e7;
 	transform: scale(1);
 	-webkit-transition: all 8s linear 0s;
 	-moz-transition: all 8s linear 0s;
@@ -76,31 +76,37 @@
 .banner-meta-text {
 	span {
 		font-size: 16px;
-		font-weight: 700;
+		font-weight: 400;
 		text-transform: uppercase;
+		color:#62655f;
 	}
 	margin-bottom: 5px;
+	background: #e7e7e7;
+    padding: 2vh;
+    border-radius: 2vh;
+    text-indent: 3vh;
+    margin: 3vh;
 }
 .banner-title {
-	font-size: 100px;
+	font-size: 48px;
 	font-weight: 700;
 	line-height: 1.1;
 	margin-bottom: 40px;
 	text-transform: uppercase;
 	@media #{$xl} {
-		font-size: 90px;
+		font-size: 70px;
 	}
 	@media #{$lg} {
-		font-size: 80px;
-	}
-	@media #{$md} {
 		font-size: 60px;
 	}
+	@media #{$md} {
+		font-size: 50px;
+	}
 	@media #{$sm,$xs} {
-		font-size: 48px;
+		font-size: 38px;
 	}
 	@media #{$xxs} {
-		font-size: 40px;
+		font-size: 30px;
 	}
 }
 .banner-btn {
@@ -108,6 +114,7 @@
 	gap: 30px;
 	flex-wrap: wrap;
 	align-items: center;
+	justify-content: center;
 }
 .banner-area1 {
 	padding-left: 120px;
@@ -123,7 +130,7 @@
 .banner-content1 {
 	padding-bottom: 60px;
 	.banner-meta-text span {
-		color: var(--clr-common-white);
+		color: #62655f;
 	}
 	.banner-title {
 		color: var(--clr-common-white);
@@ -131,17 +138,22 @@
 	.fill-btn-rounded {
 		background: var(--clr-theme-2);
 		border-color: var(--clr-theme-2);
+		font-style: italic;
+		font-family: 'Alumni Sans',sans-serif;
 		&:hover {
-			color: var(--clr-theme-1);
+			color: #252525;
 			border-color: var(--clr-common-white);
 			background: var(--clr-common-white);
 		}
 	}
 	.border-btn-rounded {
-		border-color: #575d4d;
-		color: var(--clr-common-white);
+		border-color: #127fba;
+    color: #d41107;
+	font-style: italic;
+    background: white;
+	font-family: 'Alumni Sans',sans-serif;
 		&:hover {
-			color: var(--clr-theme-1);
+			color: #252525;
 			border-color: var(--clr-common-white);
 			background: var(--clr-common-white);
 		}
@@ -204,7 +216,7 @@ div.slider-pagination.slider1-pagination {
 	}
 	.swiper-pagination-bullet.swiper-pagination-bullet-active {
 		height: 34px;
-		background: var(--clr-theme-1);
+		background: #252525;
 	}
 }
 
@@ -223,7 +235,6 @@ div.slider-pagination.slider1-pagination {
 }
 
 .banner-content2 {
-	padding-top: 80px;
 	@media #{$md,$sm,$xs} {
 		padding-top: 0;
 	}
@@ -250,16 +261,15 @@ div.slider-pagination.slider1-pagination {
 	}
 }
 .banner-text {
-	max-width: 570px;
 	padding: 19px 28px;
 	background: var(--clr-common-white);
 	border-radius: 0 10px 10px 0;
-	border-left: 2px solid var(--clr-theme-1);
+	border-left: 2px solid #252525;
 	margin-bottom: 30px;
 	p {
 		font-size: 18px;
 		font-weight: 500;
-		color: var(--clr-theme-1);
+		color: #252525;
 		line-height: 28px;
 		margin-bottom: 0;
 	}
@@ -275,7 +285,7 @@ div.slider-pagination.slider1-pagination {
 		span {
 			font-size: 30px;
 			font-weight: 700;
-			color: var(--clr-theme-1);
+			color: #252525;
 			display: block;
 		}
 	}
@@ -311,7 +321,7 @@ div.slider-pagination.slider1-pagination {
 			text-transform: uppercase;
 			color: var(--clr-common-white);
 			height: 30px;
-			background: var(--clr-theme-1);
+			background: #252525;
 			line-height: 30px;
 			display: inline-block;
 			padding: 0 20px 0 32px;
@@ -350,7 +360,7 @@ div.slider-pagination.slider1-pagination {
 		width: 60px;
 		height: 60px;
 		line-height: 60px;
-		color: var(--clr-theme-1);
+		color: #252525;
 		&:hover{
 			color: var(--clr-common-white);
 			background: var(--clr-theme-2);
@@ -489,7 +499,7 @@ div.slider-pagination.slider1-pagination {
 	bottom: 0;
 	left: 0;
 	z-index: 2;
-	background: var(--clr-theme-1);
+	background: #252525;
 	border-radius: 0 10px 0 0;
 	padding: 24px 40px;
 	@media #{$md,$sm,$xs}{
@@ -536,7 +546,7 @@ div.slider-pagination.slider1-pagination {
 .slider-5-nav-btn {
 	font-size: 26px;
 	color: var(--clr-common-white);
-	background: var(--clr-theme-1);
+	background: #252525;
 	height: 100px;
 	width: 100px;
 	text-align: center;
@@ -581,8 +591,8 @@ div.slider-pagination.slider1-pagination {
 		background: var(--clr-theme-2);
 		border-color: var(--clr-theme-2);
 		&:hover {
-			background: var(--clr-theme-1);
-			border-color: var(--clr-theme-1);
+			background: #252525;
+			border-color: #252525;
 			color: var(--clr-common-white);
 		}
 	}
@@ -624,7 +634,7 @@ div.slider-pagination.slider1-pagination {
 		height: 60px;
 		position: absolute;
 		content: "";
-		background: var(--clr-theme-1);
+		background: #252525;
 		border-radius: 50px;
 		transform: translateY(-50%);
 		top: 195px;

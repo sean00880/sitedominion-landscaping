@@ -20,7 +20,9 @@
 
 // menu style
 .main-menu {
-	display: inline-block;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	ul {
 		li {
 			display: inline-block;
@@ -184,7 +186,7 @@ div.mean-container {
 					opacity: 1;
 					padding-left: 0;
 					&:hover {
-						color: var(--clr-theme-1);
+						color: #252525;
 					}
 					i {
 						display: none;
@@ -330,12 +332,12 @@ div.mean-container {
 }
 .meta-item-text {
 	p {
-		color: var(--clr-theme-1);
+		color: #252525;
 		margin-bottom: 0;
 	}
 }
 .meta-item-icon {
-	color: var(--clr-theme-1);
+	color: #252525;
 }
 .meta-item {
 	display: flex;
@@ -428,11 +430,13 @@ div.mean-container {
 .header-logo {
 	display: inline-block;
 	img {
-		width: 100%;
+		width: 54%;
+		bottom: 2vh;
+		position: relative;
 	}
 }
 .header-main-right-header1 .action-btn{
-	color: var(--clr-theme-1);
+	color: #252525;
 }
 
 // header2 style
@@ -441,12 +445,12 @@ div.mean-container {
 		background: #f8f5f0;
 	}
 	.social-links ul li a {
-		color: var(--clr-theme-1);
+		color: #252525;
 	}
 }
 
 .meta-header-area {
-	background: var(--clr-theme-1);
+	background: #252525;
 	padding: 25px 0;
 	@media #{$md,$sm,$xs} {
 		padding: 15px 0;
@@ -477,7 +481,7 @@ div.mean-container {
 		line-height: 48px;
 		padding: 0 29px;
 		&:hover {
-			color: var(--clr-theme-1);
+			color: #252525;
 			background: var(--clr-common-white);
 			border-color: var(--clr-common-white);
 		}
@@ -546,7 +550,7 @@ div.mean-container {
 		line-height: 1;
 	}
 	.meta-title {
-		font-size: 20px;
+		font-size: 16px;
 		color: var(--clr-common-white);
 		font-weight: 700;
 		text-transform: uppercase;
@@ -588,7 +592,7 @@ div.mean-container {
 			display: none;
 		}
 		button {
-			color: var(--clr-theme-1);
+			color: #252525;
 			position: absolute;
 			left: 0;
 			top: 0;
@@ -690,7 +694,7 @@ div.mean-container {
 	}
 	&.sticky {
 		position: fixed;
-		background: var(--clr-theme-1);
+		background: #252525;
 		padding: 10px 0;
 		@media #{$md,$sm,$xs}{
 			padding: 15px 0;
@@ -724,7 +728,7 @@ div.mean-container {
 		height: 208px;
 		left: -40px;
 		bottom: -54px;
-		background: var(--clr-theme-1);
+		background: #252525;
 		border-radius: 50%;
 		z-index: -1;
 		@media #{$sm,$xs}{
@@ -850,7 +854,7 @@ div.mean-container {
 		top: 0;
 		background: transparent;
 		.header-main-content-wrapper {
-			background: var(--clr-theme-1);
+			background: #252525;
 			border-radius: 0 0 10px 10px;
 		}
 	}
@@ -891,11 +895,11 @@ div.mean-container {
 	z-index: 100;
 	overflow-x: clip;
 	@media #{$lg,$md,$sm,$xs}{
-		background: var(--clr-theme-1);
+		background: #252525;
 	}
 	&.sticky {
 		position: fixed;
-		background: var(--clr-theme-1);
+		background: #252525;
 	}
 }
 .header-main5 .header-main-content-wrapper {
@@ -907,7 +911,7 @@ div.mean-container {
 	height: 120px;
 	text-align: center;
 	line-height: 120px;
-	background: var(--clr-theme-1);
+	background: #252525;
 	border-radius: 0 0 10px 0;
 	@media #{$md,$sm,$xs}{
 		height: 80px;
@@ -934,7 +938,7 @@ div.mean-container {
 	}
 }
 .header-main-right-header5 {
-	background: var(--clr-theme-1);
+	background: #252525;
 	border-radius: 0 0 0 10px;
 	padding: 0 60px 0 35px;
 	gap: 30px;
@@ -1017,7 +1021,7 @@ div.mean-container {
 			font-weight: 500;
 			& a {
 				&:hover {
-					color: var(--clr-theme-1);
+					color: #252525;
 				}
 			}
 		}
@@ -1055,7 +1059,7 @@ div.mean-container {
 				font-size: 20px;
 				color: var(--clr-common-heading);
 				font-weight: 600;
-				color: var(--clr-theme-1);
+				color: #252525;
 			}
 		}
 	}
@@ -1064,13 +1068,13 @@ div.mean-container {
 // offset-widget style 
 .offset-widget{
 	.support-meta .support-number {
-		color: var(--clr-theme-1);
+		color: #252525;
 		&:hover{
 			color: var(--clr-theme-2);
 		}
 	}
 	.footer-social span {
-		color: var(--clr-theme-1);
+		color: #252525;
 	}
 
 }

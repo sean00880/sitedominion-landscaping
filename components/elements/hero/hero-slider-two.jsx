@@ -14,7 +14,7 @@ const HeroSliderTwo = () => {
             sliderBg: '/assets/img/banner/banner-2-1.jpg',
             sliderSubtitle: `[ since from 2000 ]`,
             sliderTitle: 'Jik Flower Scaping',
-            sliderDesc: 'The laying out and care of a plot of ground devoted partially or wholly to the growing of plants such as flowers.',
+            sliderDesc: 'We create visually stunning websites that showcase the unique features and services of your landscaping business. Our team of skilled designers and developers work closely with you to understand your specific needs and goals, ensuring that your website reflects your brand and attracts potential clients. From custom designs to seamless functionality, we offer a comprehensive range of services to help you establish a strong online presence and grow your business.',
             slidereviewImg: '/assets/img/banner/meta-review-thumb.png',
             slidereviewText: 'Active Review',
             slidereviewCount: '3200+',
@@ -25,7 +25,7 @@ const HeroSliderTwo = () => {
             sliderBg: '/assets/img/banner/banner-4-1.jpg',
             sliderSubtitle: `[ since from 2000 ]`,
             sliderTitle: 'k.i Flower plants',
-            sliderDesc: 'The laying out and care of a plot of ground devoted partially or wholly to the growing of plants such as flowers.',
+            sliderDesc: 'We create visually stunning websites that showcase the unique features and services of your landscaping business. Our team of skilled designers and developers work closely with you to understand your specific needs and goals, ensuring that your website reflects your brand and attracts potential clients. From custom designs to seamless functionality, we offer a comprehensive range of services to help you establish a strong online presence and grow your business.',
             slidereviewImg: '/assets/img/banner/meta-review-thumb.png',
             slidereviewText: 'Active Review',
             slidereviewCount: '3200+',
@@ -36,7 +36,7 @@ const HeroSliderTwo = () => {
             sliderBg: '/assets/img/banner/banner-1-1.jpg',
             sliderSubtitle: `[ since from 2000 ]`,
             sliderTitle: 'make dream gardening',
-            sliderDesc: 'The laying out and care of a plot of ground devoted partially or wholly to the growing of plants such as flowers.',
+            sliderDesc: 'We create visually stunning websites that showcase the unique features and services of your landscaping business. Our team of skilled designers and developers work closely with you to understand your specific needs and goals, ensuring that your website reflects your brand and attracts potential clients. From custom designs to seamless functionality, we offer a comprehensive range of services to help you establish a strong online presence and grow your business.',
             slidereviewImg: '/assets/img/banner/meta-review-thumb.png',
             slidereviewText: 'Active Review',
             slidereviewCount: '3200+',
@@ -68,7 +68,7 @@ const HeroSliderTwo = () => {
                                             <div className="banner-bg banner-bg2 banner-bg2-1" style={{ backgroundImage: `url(${item.sliderBg})`}}>
                                             </div>
                                             <div className="container pos-rel">
-                                                <div className="row align-items-center">
+                                                <div className="row align-items-center" style={{"display":"flex","flexDirection":"column","justifyContent":"center"}}>
                                                     <div className="col-lg-8 col-md-12">
                                                         <div className="banner-content banner-content2 banner-content2-1">
                                                             <div className="banner-meta-text" data-animation="fadeInUp" data-delay=".3s">

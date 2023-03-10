@@ -43,14 +43,14 @@ const HeaderOne = () => {
                                             <Link href="/"><a className="logo-bl"><img src="/assets/img/logo/logo-w-bg.png"
                                                 alt="logo-img" /></a></Link>
                                         </div>
-                                        <div className="main-menu main-menu1 d-none d-xl-block">
+                                        <div className="main-menu main-menu1 d-none d-xl-flex">
                                             <nav id="mobile-menu">
                                                 <NavMenu />
                                             </nav>
                                         </div>
                                     </div>
                                     <div className="header-main-right header-main-right-header1">
-                                        <span onClick={()=> setOpenCart(true)} className="action-btn cart-btn d-inline-flex action-item-cart"><i className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span>
+                                        
                                         <Link href="/contact"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
                                         <div className="menu-bar d-xl-none">
                                             <span className="side-toggle" onClick={() => setShowSidebar(true)}>

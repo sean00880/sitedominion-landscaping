@@ -16,13 +16,13 @@
 }
 .gm-faq {
 	.accordion-button {
-		border: 2px solid var(--clr-theme-1);
+		border: 2px solid #252525;
 		border-radius: 30px;
 		padding: 0 28px;
 		height: 60px;
 		font-size: 18px;
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		text-transform: uppercase;
 		font-family: "Poppins", sans-serif;
 		padding-right: 8px;
@@ -47,20 +47,20 @@
 			font-weight: 400;
 			height: 40px;
 			width: 40px;
-			border: 2px solid var(--clr-theme-1);
+			border: 2px solid #252525;
 			line-height: 36px;
 			border-radius: 50%;
 			margin-left: 0;
 			text-align: center;
 		}
 		&:not(.collapsed) {
-			background-color: var(--clr-theme-1);
+			background-color: #252525;
 			color: var(--clr-common-white);
 			box-shadow: none;
 			&::after {
 				border-color: var(--clr-common-white);
 				background: var(--clr-common-white);
-				color: var(--clr-theme-1);
+				color: #252525;
 				content: "\f068";
 			}
 		}

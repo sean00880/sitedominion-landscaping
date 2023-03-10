@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .pricing-cta-wrapper {
-	background: var(--clr-theme-1);
+	background: #252525;
 	border-radius: 10px;
 	padding: 60px 0px 60px 60px;
 	position: relative;
@@ -33,7 +33,7 @@
 			border-radius: 6px;
 			padding: 0 28px;
 			padding-right: 54px;
-			background: var(--clr-theme-1);
+			background: #252525;
 			color: var(--clr-common-white);
 			&::placeholder {
 				font-size: 16px;
@@ -69,7 +69,7 @@
 			.list {
 				border: 2px solid #1c5240;
 				width: 100%;
-				background: var(--clr-theme-1);
+				background: #252525;
 			}
 			.option {
 				font-size: 16px;
@@ -82,7 +82,7 @@
 	.fill-btn {
 		border-color: var(--clr-common-white);
 		background: var(--clr-common-white);
-		color: var(--clr-theme-1);
+		color: #252525;
 		border-radius: 6px;
 		min-width: 200px;
 		margin-top: 30px;
@@ -92,7 +92,7 @@
 		}
 		&:hover {
 			border-color: var(--clr-common-white);
-			background: var(--clr-theme-1);
+			background: #252525;
 			color: var(--clr-common-white);
 		}
 	}

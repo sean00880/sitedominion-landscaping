@@ -60,7 +60,7 @@
 		content: "";
 		width: 100%;
 		height: 100%;
-		background: var(--clr-theme-1);
+		background: #252525;
 		opacity: 0.9;
 		z-index: -1;
 		top: 0;
@@ -117,7 +117,7 @@
 	justify-content: center;
 	.nav-tabs {
 		border-bottom: 0;
-		border: 2px solid var(--clr-theme-1);
+		border: 2px solid #252525;
 		border-radius: 10px;
 		display: flex;
 		gap:8px 18px ;
@@ -138,7 +138,7 @@
 		.nav-link {
 			font-size: 16px;
 			font-weight: 700;
-			color: var(--clr-theme-1);
+			color: #252525;
 			text-transform: uppercase;
 			padding: 0;
 			border: 0;
@@ -175,7 +175,7 @@
 			content: "";
 			width: calc(100% - 36px);
 			height: 100%;
-			border: 2px solid var(--clr-theme-1);
+			border: 2px solid #252525;
 			border-radius: 10px;
 			left: 18px;
 			bottom: -12px;
@@ -235,7 +235,7 @@
 		span {
 			font-size: 20px;
 			font-weight: 700;
-			color: var(--clr-theme-1);
+			color: #252525;
 			text-transform: uppercase;
 			font-family: "Poppins", sans-serif;
 			display: block;
@@ -276,7 +276,7 @@
 		p {
 			font-size: 24px;
 			font-weight: 400;
-			color: var(--clr-theme-1);
+			color: #252525;
 			line-height: 1.4;
 			margin-bottom: 15px;
 			@media #{$sm,$xs} {
@@ -286,7 +286,7 @@
 		.author-name {
 			font-size: 18px;
 			font-weight: 700;
-			color: var(--clr-theme-1);
+			color: #252525;
 			text-transform: uppercase;
 			font-family: "Poppins", sans-serif;
 			span {
@@ -371,7 +371,7 @@
 	}
 	.portfolio-title {
 		font-size: 24px;
-		color: var(--clr-theme-1);
+		color: #252525;
 		margin-bottom: 0;
 		text-transform: uppercase;
 		@media #{$xxs} {
@@ -403,11 +403,11 @@
 	line-height: 28px;
 }
 .portfolio-details-wrapper p a {
-	color: var(--clr-theme-1);
+	color: #252525;
 }
 .portfolio-details-wrapper p span {
 	font-weight: 700;
-	color: var(--clr-theme-1);
+	color: #252525;
 }
 .portfolio-sub-image {
 	display: flex;
@@ -455,7 +455,7 @@
 	width: 60px;
 	height: 60px;
 	display: inline-flex;
-	background: var(--clr-theme-1);
+	background: #252525;
 	justify-content: center;
 	align-items: center;
 	border-radius: 50%;
@@ -569,7 +569,7 @@
 	display: inline-flex;
 	justify-content: center;
 	padding: 8px 5px;
-	background: var(--clr-theme-1);
+	background: #252525;
 	border-radius: 10px;
 	.swiper-pagination-bullet {
 		width: 20px;
@@ -645,10 +645,10 @@
 .portfolio-btn.style-4 .fill-btn {
 	background: var(--clr-common-white);
 	border-color: var(--clr-common-white);
-	color: var(--clr-theme-1);
+	color: #252525;
 	&:hover {
-		background: var(--clr-theme-1);
-		border-color: var(--clr-theme-1);
+		background: #252525;
+		border-color: #252525;
 		color: var(--clr-common-white);
 	}
 }
@@ -708,7 +708,7 @@
 		height: 100%;
 		top: 0;
 		left: 0;
-		background: var(--clr-theme-1);
+		background: #252525;
 		opacity: 0.9;
 	}
 	a {

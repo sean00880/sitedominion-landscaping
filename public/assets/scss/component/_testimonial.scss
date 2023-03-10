@@ -62,7 +62,7 @@
 		text-transform: uppercase;
 		font-family: "Poppins", sans-serif;
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		letter-spacing: -1.3px;
 		margin-bottom: 0;
 		@media #{$xl} {
@@ -224,7 +224,7 @@
 	.author-quote {
 		font-size: 20px;
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		text-transform: uppercase;
 		line-height: 1.5;
 		font-family: "Poppins", sans-serif;
@@ -285,7 +285,7 @@
 .swiper-slide-active {
 	.style-2 {
 		.testimonial-content {
-			background: var(--clr-theme-1);
+			background: #252525;
 			.item-counter {
 				opacity: 1;
 				visibility: visible;
@@ -299,7 +299,7 @@
 		}
 		.testimonial-icon {
 			background: var(--clr-common-white);
-			color: var(--clr-theme-1);
+			color: #252525;
 			&::before {
 				background: var(--clr-common-white);
 			}
@@ -354,7 +354,7 @@
 			position: absolute;
 			top: 0;
 			left: 50%;
-			background: var(--clr-theme-1);
+			background: #252525;
 			height: 100px;
 			width: 100px;
 			display: flex;
@@ -421,7 +421,7 @@
 		text-transform: uppercase;
 		font-family: "Poppins", sans-serif;
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		letter-spacing: -1.3px;
 		margin-bottom: 27px;
 		@media #{$lg}{
@@ -503,11 +503,11 @@
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	color: var(--clr-theme-1);
+	color: #252525;
 	@include transition (.3s);
 	cursor: pointer;
 	&:hover{
-		background: var(--clr-theme-1);
+		background: #252525;
 		color: var(--clr-common-white);
 		&:before{
 			opacity: 1;
@@ -558,7 +558,7 @@
 		height: 100%;
 		top: 0;
 		left: 0;
-		background: var(--clr-theme-1);
+		background: #252525;
 		opacity: 0.9;
 	}
 	img {
@@ -593,7 +593,7 @@
 	.author-quote {
 		font-size: 34px;
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		text-transform: uppercase;
 		line-height: 1.45;
 		font-family: "Poppins", sans-serif;
@@ -692,11 +692,11 @@
 	z-index: 2;
 	@include transition(0.3s);
 	@media #{$md,$sm,$xs} {
-		border-color: var(--clr-theme-1);
-		color: var(--clr-theme-1);
+		border-color: #252525;
+		color: #252525;
 	}
 	&:hover {
-		color: var(--clr-theme-1);
+		color: #252525;
 		border-color: var(--clr-common-white);
 		background: var(--clr-common-white);
 		@media #{$md,$sm,$xs} {

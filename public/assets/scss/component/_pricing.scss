@@ -1,7 +1,7 @@
 @use "../abstract" as *;
 
 .pricing-area-bg {
-	background: var(--clr-theme-1);
+	background: #252525;
 }
 .pricing-section-title {
 	.section-subtitle {
@@ -118,11 +118,11 @@
 		color: var(--clr-theme-2);
 	}
 	.package-price {
-		color: var(--clr-theme-1);
+		color: #252525;
 	}
 	.package-list {
 		li {
-			color: var(--clr-theme-1);
+			color: #252525;
 			border-color: #f1f1f1;
 		}
 		li.n-inc {

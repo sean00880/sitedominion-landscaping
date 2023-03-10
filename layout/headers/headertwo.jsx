@@ -72,8 +72,6 @@ const HeaderTwo = () => {
                                         <NavMenu />
                                     </nav>
                                 </div>
-                                <span className="action-btn cart-btn d-inline-flex action-item-cart" onClick={()=> setOpenCart(true)}><i
-                                    className="fas fa-shopping-basket"></i><span className='product-quantity-circle-cart'>({quantity})</span></span>
                                 <Link href="/contact"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
                                 <div className="menu-bar d-lg-none">
                                     <span className="side-toggle" onClick={() => setShowSidebar(true)}>

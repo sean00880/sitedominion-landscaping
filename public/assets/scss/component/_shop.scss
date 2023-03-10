@@ -97,7 +97,7 @@
 		width: 50px;
 		background: var(--clr-common-white);
 		border-radius: 50%;
-		color: var(--clr-theme-1);
+		color: #252525;
 		font-size: 20px;
 		line-height: 50px;
 		transition: 0.3s;
@@ -106,7 +106,7 @@
 		text-align: center;
 		cursor: pointer;
 		&:hover {
-			background: var(--clr-theme-1);
+			background: #252525;
 			color: var(--clr-common-white);
 		}
 	}
@@ -128,7 +128,7 @@
 		border: 2px solid var(--clr-theme-3);
 		border-radius: 10px;
 		&:hover {
-			border-color: var(--clr-theme-1);
+			border-color: #252525;
 		}
 	}
 	.nav-tabs {
@@ -137,7 +137,7 @@
 		border-bottom: 0;
 	}
 	.nav-link.active {
-		border-color: var(--clr-theme-1);
+		border-color: #252525;
 		background: var(--clr-theme-3);
 	}
 }
@@ -163,7 +163,7 @@
 .product-d-category {
 	font-size: 14px;
 	font-weight: 700;
-	color: var(--clr-theme-1);
+	color: #252525;
 	text-transform: uppercase;
 	background: #ffe400;
 	display: inline-block;
@@ -221,7 +221,7 @@
 		font-size: 16px;
 		text-transform: uppercase;
 		&:first-child {
-			color: var(--clr-theme-1);
+			color: #252525;
 			font-weight: 700;
 		}
 	}
@@ -269,7 +269,7 @@
 		width: 24px;
 		border: none;
 		text-align: center;
-		color: var(--clr-theme-1);
+		color: #252525;
 	}
 }
 
@@ -299,8 +299,8 @@
 .product-details-nav .nav-link {
 	font-size: 16px;
 	text-transform: uppercase;
-	color: var(--clr-theme-1);
-	border: 2px solid var(--clr-theme-1);
+	color: #252525;
+	border: 2px solid #252525;
 	border-radius: 10px;
 	width: 260px;
 	padding: 0 28px;
@@ -313,14 +313,14 @@
 	}
 }
 .product-details-nav .nav-link:hover {
-	border-color: var(--clr-theme-1);
+	border-color: #252525;
 	color: var(--clr-common-white);
-	background: var(--clr-theme-1);
+	background: #252525;
 }
 .product-details-nav .nav-link.active {
-	border-color: var(--clr-theme-1);
+	border-color: #252525;
 	color: var(--clr-common-white);
-	background: var(--clr-theme-1);
+	background: #252525;
 }
 .product__details-info ul li {
 	@media #{$xs} {
@@ -364,7 +364,7 @@
 	text-transform: uppercase;
 }
 .course-start-icon i {
-	color: var(--clr-theme-1);
+	color: #252525;
 	font-size: 13px;
 }
 .course-start-icon {
@@ -395,7 +395,7 @@
 
 .comment-rating ul li a {
 	font-size: 14px;
-	color: var(--clr-theme-1);
+	color: #252525;
 }
 
 .comment-rating ul {
@@ -546,7 +546,7 @@
 	}
 	.product-item-action {
 		display: inline-flex;
-		background: var(--clr-theme-1);
+		background: #252525;
 		padding: 17px 23px;
 		bottom: 0;
 		left: 50%;
@@ -586,7 +586,7 @@
 		text-align: center;
 		font-size: 14px;
 		line-height: 60px;
-		color: var(--clr-theme-1);
+		color: #252525;
 		text-transform: uppercase;
 		font-weight: 700;
 		border-radius: 50%;
@@ -632,7 +632,7 @@
 	border-radius: 6px;
 	@include transition(0.3s);
 	&:hover {
-		background: var(--clr-theme-1);
+		background: #252525;
 		color: var(--clr-common-white);
 	}
 }
@@ -643,7 +643,7 @@
 	font-size: 18px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: var(--clr-theme-1);
+	color: #252525;
 	span{
 		color: var(--clr-theme-2);
 	}
@@ -661,7 +661,7 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: var(--clr-theme-1);
+	color: #252525;
 	border: 0;
 	&:focus{
 		box-shadow: none;
@@ -673,7 +673,7 @@
 		}
 	}
 	.dropdown-menu {
-		border-color: var(--clr-theme-1);
+		border-color: #252525;
 	}
 }
 .filter-item-btn{
@@ -681,7 +681,7 @@
 	font-size: 14px;
 	text-transform: uppercase;
 	font-weight: 600;
-	color: var(--clr-theme-1);
+	color: #252525;
 	border: 0;
 	&:focus{
 		box-shadow: none;
@@ -693,7 +693,7 @@
 		}
 	}
 	.dropdown-menu {
-		border-color: var(--clr-theme-1);
+		border-color: #252525;
 	}
 }
 .filter-tab-btn{
@@ -1418,7 +1418,7 @@ p.checkout-coupon input[type="text"] {
 .product-side-info .product-price {
 	font-size: 20px;
 	font-weight: 700;
-	color: var(--clr-theme-1);
+	color: #252525;
 	@media #{$sm,$xs} {
 		font-size: 18px;
 	}
@@ -1473,7 +1473,7 @@ p.checkout-coupon input[type="text"] {
 	}
 }
 .close-sidebar {
-	background: var(--clr-theme-1);
+	background: #252525;
 	display: flex;
 	align-items: center;
 	gap: 10px;
@@ -1564,7 +1564,7 @@ p.checkout-coupon input[type="text"] {
 	.product-name {
 		font-size: 16px;
 		text-transform: uppercase;
-		color: var(--clr-theme-1);
+		color: #252525;
 		font-weight: 600;
 	}
 	.remove-item {

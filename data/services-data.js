@@ -1,18 +1,18 @@
 const ServicesList = [
     {
         id:1,
-        serviceImg:'/assets/img/service/service-img-st2-1.jpg',
-        serviceIcon:'flaticon-gardening-1',
-        serviceTitle:'landscaping',
+        serviceImg:'/assets/img/service/service1.png',
+        serviceIcon:'/assets/img/icon/mowing.jpg',
+        serviceTitle:'Landscaping & Lawncare Website Development',
         serviceBadge:'',
         serviceDesc:'Get expert advice on how to design a garden.',
 
     },
     {
         id:2,
-        serviceImg:'/assets/img/service/service-img-st2-2.jpg',
-        serviceIcon:'flaticon-house',
-        serviceTitle:'Urban',
+        serviceImg:'/assets/img/service/service2.png',
+        serviceIcon:'/assets/img/icon/landscapedesign.png',
+        serviceTitle:'Landscape Design Website Development',
         serviceBadge:'',
         serviceDesc:'Plants are expensive and need to be looked after.',
 
@@ -20,17 +20,17 @@ const ServicesList = [
     {
         id:3,
         serviceImg:'/assets/img/service/service-img-st2-3.jpg',
-        serviceIcon:'flaticon-farming-and-gardening',
-        serviceTitle:'Maintenance',
+        serviceIcon:'/assets/img/icon/construction.png',
+        serviceTitle:'Landscape Construction Website Development',
         serviceBadge:'',
         serviceDesc:'Keep your green garden low maintenance.',
 
     },
     {
         id:4,
-        serviceImg:'/assets/img/service/service-img-st2-4.jpg',
-        serviceIcon:'flaticon-flower-with-rounded-petals',
-        serviceTitle:'Events',
+        serviceImg:'/assets/img/service/service4.png',
+        serviceIcon:'/assets/img/icon/garden.png',
+        serviceTitle:'Tree Care Website Development',
         serviceBadge:'',
         serviceDesc:'We at The Gardeny are proud to offer',
     },

@@ -7,7 +7,7 @@ footer {
 	overflow: hidden;
 }
 .footer-area {
-	background: var(--clr-theme-1);
+	background: #252525;
 	position: relative;
 	z-index: 2;
 	overflow-x: clip;
@@ -238,7 +238,7 @@ footer {
 	border-radius: 50%;
 	&:hover {
 		background: var(--clr-common-white);
-		color: var(--clr-theme-1);
+		color: #252525;
 	}
 }
 .go-top-btn {
@@ -397,7 +397,7 @@ footer {
 // footer-top-area style-3 style
 .style-3 {
 	&.footer-top-area {
-		background: var(--clr-theme-1);
+		background: #252525;
 		padding: 25px 0;
 	}
 	.footer-top-social {
@@ -464,7 +464,7 @@ footer {
 		font-size: 16px;
 		font-weight: 700;
 		text-transform: uppercase;
-		color: var(--clr-theme-1);
+		color: #252525;
 		@media #{$lg,$md,$sm,$xxs} {
 			font-size: 14px;
 		}
@@ -475,7 +475,7 @@ footer {
 }
 .copyright3-text {
 	font-weight: 700;
-	color: var(--clr-theme-1);
+	color: #252525;
 	text-transform: uppercase;
 	text-align: right;
 	@media #{$sm,$xs} {
@@ -486,7 +486,7 @@ footer {
 		font-size: 14px;
 	}
 	a {
-		color: var(--clr-theme-1);
+		color: #252525;
 		&:hover {
 			color: var(--clr-theme-2);
 		}
@@ -494,11 +494,11 @@ footer {
 }
 .footer3-widget {
 	.footer-widget-title h4 {
-		color: var(--clr-theme-1);
+		color: #252525;
 	}
 	&.footer-widget ul li a {
 		font-weight: 700;
-		color: var(--clr-theme-1);
+		color: #252525;
 		text-transform: uppercase;
 		font-size: 16px;
 		@media #{$lg,$md,$sm,$xxs} {
@@ -762,7 +762,7 @@ footer {
 
 // footer-5 style
 .footer-area5 {
-	border-top: 1px solid var(--clr-theme-1);
+	border-top: 1px solid #252525;
 }
 .footer-area5-bg {
 	background: var(--clr-common-white);
@@ -773,7 +773,7 @@ max-width: 655px;
 margin: 0 auto;
 }
 .footer5-widget p {
-	color: var(--clr-theme-1);
+	color: #252525;
 	font-size: 18px;
 }
 .footer5-widget{
@@ -788,7 +788,7 @@ margin: 0 auto;
 		margin: 0 auto;
 	}
 	.newsletter-input-wrapper input {
-		border-color: var(--clr-theme-1);
+		border-color: #252525;
 		border-radius: 6px;
 	}
 	.fill-btn-rounded {
@@ -799,14 +799,14 @@ margin: 0 auto;
 
 // copyright5 style 
 .copyright5-area {
-	border-top: 1px solid var(--clr-theme-1);
+	border-top: 1px solid #252525;
 	padding: 26px 0;
 }
 .copyright5-text {
 	font-size: 16px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: var(--clr-theme-1);
+	color: #252525;
 	text-align: center;
 	@media #{$md}{
 		margin-top: 10px;
@@ -836,7 +836,7 @@ margin: 0 auto;
 		gap: 23px;
 	}
 	.social-links ul li a {
-		color: var(--clr-theme-1);
+		color: #252525;
 	&:hover {
 		color: var(--clr-theme-2);
 	}
