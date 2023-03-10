@@ -3,7 +3,7 @@ import React from 'react';
 import portfolioList from '../../data/portfolio-data';
 
 import { useState } from "react";
-import Lightbox from 'react-18-image-lightbox';
+import Lightbox from 'react-image-lightbox';
 
 const PortfolioSectionFour = () => {
 

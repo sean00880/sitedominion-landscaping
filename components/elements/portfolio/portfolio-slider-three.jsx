@@ -9,7 +9,7 @@ import portfolioList from '../../../data/portfolio-data';
 
 import { motion } from "framer-motion";
 import { useState } from "react";
-import Lightbox from 'react-18-image-lightbox';
+import Lightbox from 'react-image-lightbox';
 
 const PortfolioSliderThree = () => {
     const [photoIndex, setPhotoIndex] = useState(null);
