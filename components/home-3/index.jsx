@@ -2,6 +2,7 @@ import React from 'react';
 import FooterThree from '../../layout/footers/footerthree';
 import HeaderThree from '../../layout/headers/headerthree';
 import HeroSliderThree from '../elements/hero/hero-slider-three';
+import PortfolioSliderThree from '../elements/portfolio/portfolio-slider-three';
 import TestimonialSliderThree from '../elements/testimonial/testimonial-slider-three';
 import AboutSectionThree from './about-section-three';
 import ClientsSection from './clients-section';
@@ -20,6 +21,7 @@ const index = () => {
             <ServiceSectionThree />
             <FactSectionThree />
             <ClientsSection />
+            <PortfolioSliderThree />
             <TestimonialSliderThree />
             <ProductSection />
             <ContactSectionThree />

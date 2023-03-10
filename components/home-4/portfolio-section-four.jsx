@@ -3,7 +3,6 @@ import React from 'react';
 import portfolioList from '../../data/portfolio-data';
 
 import { useState } from "react";
-import Lightbox from 'react-image-lightbox';
 
 const PortfolioSectionFour = () => {
 
@@ -14,17 +13,7 @@ const PortfolioSectionFour = () => {
 
     return (
         <>
-            {open && (
-                <Lightbox
-
-                    mainSrc={images[photoIndex]}
-                    nextSrc={images[(photoIndex + 1) % images.length]}
-                    prevSrc={images[(photoIndex + images.length - 1) % images.length]}
-                    onCloseRequest={() => setOpen(false)}
-                    onMovePrevRequest={() => setPhotoIndex((photoIndex + images.length - 1) % images.length)}
-                    onMoveNextRequest={() => setPhotoIndex((photoIndex + 1) % images.length)}
-                />
-            )}
+            
 
             <section className="portfolio-area pt-120 pb-90 portfolio-bg fix">
                 <div className="container">
