@@ -53,18 +53,21 @@ const portfolioList = [
         para4:"Greenpower Landscaping LLC is a prototype project built by Site Dominion to showcase our skills in creating custom websites for landscaping businesses. The website's design reflects the business's values and goals, and its functionality makes it easy for users to learn about the business's services and contact them for work. The use of React and Next.js allowed Site Dominion to build a performant and flexible website that will help Greenpower Landscaping LLC's future adopters attract new customers and grow their business."
     },
     {
-        id:4,
-        portfolioImg:'/assets/img/portfolio/project4.png',
+        id:'noahs-lawncare',
+        portfolioImg:'/assets/img/portfolio/noah.png',
         portfolioTag:'gardening',
         portfolioBudget:'$20k budget',
-        portfolioTitle:'Tree-Trimming & Removal',
-        title:'random',
+        portfolioTitle:"Noah's Lawncare",
+        title:"Noah's Lawncare",
         titleDescription:'A multi-service landscaping prototype',
-        para1:"In terms of design, we worked closely with Grandpa Ron's LLC to create a website that accurately represented their brand and values. We utilized a clean and modern design aesthetic that was easy to navigate and highlighted the business's services and value proposition. We also included a prominent call-to-action button that encouraged users to request a quote or get in touch with the Grandpa Ron's LLC team.",
-        para2:"The website has several features that make it easy for users to learn about the business's services and contact them for work. The homepage features a prominent call to action that encourages users to request a quote. The website's services page provides detailed information about the different services offered by Grandpa Ron's LLC, along with pricing information. The website also has a gallery section where the business can showcase their previous work, which can help potential customers get an idea of the quality of their services.",
-        img1:'/assets/img/portfolio/portfolio-sub1.jpg',
-        img2:'/assets/img/portfolio/portfolio-sub2.jpg',
-        img3:'/assets/img/portfolio/portfolio-sub3.jpg',
+        para1:"Noah's Lawncare is a prototype website developed by our web development agency, designed to showcase the services and capabilities of a fictional lawn care company. The website has a sleek and modern design that is easy to navigate, making it a user-friendly experience for potential customers. The homepage features stunning imagery of lush green lawns and vibrant flowers, providing visitors with an instant sense of what Noah's Lawncare has to offer. The layout is simple and easy to follow, with clear calls to action that encourage visitors to explore the site further and learn more about the company.",
+        para2:"The services page provides a detailed breakdown of the various lawn care services that Noah's Lawncare offers, including lawn mowing, weed control, fertilization, and more. Each service is accompanied by a brief description and a clear price, making it easy for visitors to understand what they're getting and how much it will cost. The about us page tells the story of Noah's Lawncare, highlighting the company's passion for creating beautiful outdoor spaces and its commitment to quality and customer satisfaction. Visitors can learn about the company's history, mission, and values, giving them a sense of the company's personality and culture. Finally, the contact page provides visitors with all the information they need to get in touch with Noah's Lawncare, including a contact form, phone number, and address. The page is designed to be simple and straightforward, making it easy for visitors to reach out and start a conversation with the company.",
+        para4:"Overall, Noah's Lawncare is a well-designed and functional prototype website that showcases our web development agency's ability to create engaging and user-friendly websites for businesses of all kinds.",
+        img1:'/assets/img/portfolio/portfolio-sub10.png',
+        img2:'/assets/img/portfolio/portfolio-sub11.png',
+        img3:'/assets/img/portfolio/portfolio-sub12.png',
+        img4:'/assets/img/portfolio/noahsbanner3.png',
+        img5:'/assets/img/portfolio/noahs.png'
 
     },
     //home one portfolio end

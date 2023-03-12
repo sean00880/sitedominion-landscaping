@@ -4,7 +4,7 @@ import React from 'react';
 const PortfolioDetailsArea = ({ item }) => {
     return (
         <>
-            <section className="page-title-area" style={{ background: `url(${item.img4})` , backgroundSize:"cover"}}>
+            <section className="page-title-area" style={{ "background": `url(${item.img4})` , "backgroundSize":"contain", }}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">

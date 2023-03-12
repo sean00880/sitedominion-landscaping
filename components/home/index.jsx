@@ -23,13 +23,14 @@ const index = () => {
       <HeroSlider />
       <ServiceSection />
       <FoundationSection />
+      
       <ServiceSectionFour/>
+      <WorkSection />
       <PricingSection />
       <PortfolioSection />
-      <WorkSection />
+     
       <TestimonialSection />
-      <FactSection />
-      <BlogSection />
+   
       <BrandSlider />
       <FooterOne />
     </main>

@@ -6,28 +6,28 @@ const WorkSection = () => {
         {
             id: 1,
             workImg : '/assets/img/icon/work-icon1.png',
-            workTitle : 'Garden Design',
+            workTitle : 'Browse Our Website',
             workDesc : 'Whether you are looking for plants, trees, shrubs or garden',
             workClass : 'process-flow-border',
         },
         {
             id: 2,
             workImg : '/assets/img/icon/work-icon2.png',
-            workTitle : 'soil filtering',
+            workTitle : 'Complete Payment',
             workDesc : 'Whether you are looking for plants, trees, shrubs or garden',
             workClass : 'process-flow-border',
         },
         {
             id: 3,
             workImg : '/assets/img/icon/work-icon3.png',
-            workTitle : 'ready to plant',
+            workTitle : 'Website Designed',
             workDesc : 'Whether you are looking for plants, trees, shrubs or garden',
             workClass : 'process-flow-border',
         },
         {
             id: 4,
             workImg : '/assets/img/icon/work-icon4.png',
-            workTitle : 'using soil medic',
+            workTitle : 'Website Deployed',
             workDesc : 'Whether you are looking for plants, trees, shrubs or garden',
             workClass : 'process-flow-border d-none',
         }
@@ -50,7 +50,7 @@ const WorkSection = () => {
                   <div className="work-step work-step-2" key={num}>
                      <div className={item.workClass}></div>
                      <div className="work-step-icon">
-                        <img src={item.workImg} alt="img not found"/>
+                        <img src={item.workImg} style={{"width":"84px"}} alt="img not found"/>
                      </div>
                      <h4>{item.workTitle}</h4>
                      <p>{item.workDesc}</p>
