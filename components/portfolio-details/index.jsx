@@ -2,7 +2,7 @@ import React from 'react';
 import portfolioList from '../../data/portfolio-data';
 import FooterOne from '../../layout/footers/footer';
 import HeaderOne from '../../layout/headers/header';
-import PortfolioDetailsArea from './portfolio-details-area';
+import PortfolioDetailsArea from './portfolio-details-area2';
 
 
 const item = portfolioList[0]

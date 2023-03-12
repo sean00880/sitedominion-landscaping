@@ -11,7 +11,7 @@ const HeroSlider = () => {
     const SliderItem = [
         {
             id: 1,
-            sliderBg: '/assets/img/banner/banner3c.png',
+            sliderBg: '/assets/img/banner/banner3.png',
             sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
             sliderTitle: 'Custom Landscaping Business Web Design',
             sliderbtn: 'request an estimate',

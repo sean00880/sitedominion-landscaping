@@ -4,7 +4,7 @@ import React from 'react';
 const PortfolioDetailsArea = ({ item }) => {
     return (
         <>
-            <section className="page-title-area" style={{ background: "url(/assets/img/bg/page-title-bg.jpg)" }}>
+            <section className="page-title-area" style={{ background: `url(${item.img4})` , backgroundSize:"cover"}}>
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -32,7 +32,7 @@ const PortfolioDetailsArea = ({ item }) => {
                 <div className="container">
                     <div className="portfolio-details-wrapper wow fadeInUp" data-wow-delay=".3s">
                         <div className="portfolio-thumb">
-                            <img src="/assets/img/portfolio/portfolio-d-thumb.jpg" alt="" />
+                            <img src={item.img5} alt="" />
                         </div>
                         <div className="portfolio-meta-wrapper">
                             <div className="portfolio-meta">
@@ -59,15 +59,15 @@ const PortfolioDetailsArea = ({ item }) => {
                                 </div>
                             </div>
                         </div>
-                        <h2>Design Considerations</h2>
+                        <h3>Design Considerations</h3>
                         <p>{item.para1}</p>
 
-                        <h2>Website Functionality</h2>
+                        <h3>Website Functionality</h3>
                         <p>{item.para2}</p>
                         <p>{item.para3}</p>
 
-                        <h2>Technology Stack</h2>
-                        <p className="mb-20">At Site Dominion, we create NextJS websites with EmailJS to help businesses generate leads. Our process involves a few key steps.
+                        <h3>Technology Stack</h3>
+                        <p className="mb-20">At Site Dominion, we create <span> NextJS</span> websites with EmailJS to help businesses generate leads. Our process involves a few key steps.
 
 First, we work closely with the client to understand their specific needs and goals. We take the time to understand their target audience, their brand identity, and their desired user experience.
 
@@ -76,24 +76,16 @@ Next, we design and develop a custom website using NextJS. We use NextJS because
 Once the website is built, we integrate EmailJS into the site. EmailJS allows us to easily set up email forms and automation, which are critical for lead generation. We configure the forms to capture the information that the client needs, such as name, email, and phone number.
 
 Finally, we test the website thoroughly to ensure that it is working correctly and meeting the client's needs. We make any necessary tweaks and adjustments based on feedback from the client.</p>
-                            <p>Our process of creating NextJS websites with EmailJS is designed to help businesses generate leads and grow their customer base. We are committed to delivering high-quality websites that help our clients achieve their business goals.</p>
-                        <h2>Conclusion</h2>
+                            <p>Our process of creating NextJS websites with EmailJS is designed to help businesses generate leads and grow their customer base. We are committed to delivering high-quality websites that help our clients achieve their business goals. </p>
+                        <h3>Conclusion</h3>
                         <p>{item.para4}</p>
+                        <p>We strive to address all your requirements so you can kick back and relax. Convincing, right? If not, we urge you to <Link href='contact'><a>contact us</a></Link> if you still have unanswered questions or concerns.</p>
                         <div className="portfolio-sub-image">
-                            <img src="/assets/img/portfolio/portfolio-sub1.jpg" alt="" />
-                            <img src="/assets/img/portfolio/portfolio-sub2.jpg" alt="" />
-                            <img src="/assets/img/portfolio/portfolio-sub3.jpg" alt="" />
+                            <img src={item.img1} alt="" />
+                            <img src={item.img2} alt="" />
+                            <img src={item.img3} alt="" />
                         </div>
-                        <div className="portfolio-quote">
-                            <div className="quote-icon">
-                                <img src="/assets/img/icon/qoute.png" alt="" />
-                            </div>
-                            <div className="quote-content">
-                                <p>Business Content provides fully integrated marketing services designed to reach your target
-                                    audience through specialized content and effective creative.</p>
-                                <div className="author-name">James Anderson <span>-Head Of Idea</span></div>
-                            </div>
-                        </div>
+                        
                         <div className="portfolio-faq-wrapper">
                             <h4>some question & answers</h4>
                             <p className="mb-35">Still not convinced that gaming is good for you? That’s understandable, considering
