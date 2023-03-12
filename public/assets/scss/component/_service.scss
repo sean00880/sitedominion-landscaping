@@ -4,6 +4,12 @@
 	position: relative;
 }
 
+.services-area .container{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
 .services-title-bg {
 	position: absolute;
 	top: 0;
@@ -52,7 +58,7 @@
 		&:before {
 			width: 40px;
 			height: 2px;
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			position: absolute;
 			content: "";
 			bottom: 0;
@@ -83,7 +89,7 @@
 			&::after {
 				opacity: 0.1;
 			}
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			box-shadow: none;
 			.single-service-content {
 				p {
@@ -195,7 +201,7 @@
 		color: var(--clr-common-white);
 		width: 40px;
 		height: 40px;
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		border-radius: 50%;
 		z-index: 1;
 		text-align: center;
@@ -425,9 +431,9 @@
 			transition: 0.3s;
 		}
 		&:hover {
-			color: var(--clr-theme-2);
+			color: #92b48f;
 			&:before {
-				color: var(--clr-theme-2);
+				color: #92b48f;
 			}
 		}
 	}
@@ -482,7 +488,7 @@
 		}
 		&:hover {
 			&:after {
-				color: var(--clr-theme-2);
+				color: #92b48f;
 			}
 		}
 	}
@@ -540,18 +546,18 @@
 	}
 	.service-icon {
 		position: absolute;
-		width: 100px;
-		height: 100px;
-		background: var(--clr-common-white);
-		border-radius: 50px;
-		top: 0;
-		left: 50%;
-		transform: translate(-50%, -50%);
-		text-align: center;
-		line-height: 115px;
-		font-size: 50px;
-		color: var(--clr-theme-2);
-		box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.04);
+    width: 143px;
+    height: 125px;
+    background: var(--clr-common-white);
+    border-radius: 20px 0px;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 115px;
+    font-size: 50px;
+    color: #92b48f;
+    border: 3px solid #707d73;
 	}
 
 	.service-icon .icon{
@@ -563,9 +569,11 @@
 		font-size: 20px;
 		text-transform: uppercase;
 		margin-bottom: 10px;
+		color:#5a645c;
 	}
 	.single-service-content p {
 		margin-bottom: 0;
+		color:#2e2d2d;
 	}
 	.single-service-content:before {
 		content: counter(service-counter, decimal-leading-zero);
@@ -673,7 +681,7 @@
 				align-items: flex-start;
 			}
 			i {
-				color: var(--clr-theme-2);
+				color: #92b48f;
 				font-size: 60px;
 				line-height: 1;
 				padding-top: 10px;
@@ -787,7 +795,7 @@
 	&.single-service {
 		&:hover {
 			.service-icon {
-				border-color: var(--clr-theme-2);
+				border-color: #92b48f;
 				background: #252525;
 				color: var(--clr-common-white);
 			}
@@ -844,8 +852,19 @@
 .style-4 {
 	&.services-area {
 		position: relative;
-		margin-top: -80px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		min-height: 100vh;
+		padding-top:120px;
+		padding-bottom:90px;
 	}
+}
+
+.services-wrapper .row {
+	display: flex;
+    align-items: center;
+    justify-content: center;
 }
 .single-service-style-4 {
 	.service-title {
@@ -855,6 +874,7 @@
 		position: relative;
 		padding-bottom: 0;
 		transition: 0.3s;
+		color: #1d1b1b;
 		@media #{$xl,$md} {
 			font-size: 22px;
 		}
@@ -864,7 +884,7 @@
 		&:before {
 			width: 40px;
 			height: 2px;
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			position: absolute;
 			content: "";
 			bottom: 0;
@@ -877,17 +897,17 @@
 	&.single-service {
 		box-shadow: 0px 16px 32px 0px rgba(0, 0, 0, 0.06);
 		border-radius: 6px;
-		padding: 60px 50px 50px;
+		padding: 60px 25px 50px;
 		position: relative;
 		overflow: hidden;
 		transition: 0.3s;
 		z-index: 5;
 		background: var(--clr-common-white);
 		@media #{$xl,$md} {
-			padding: 30px 30px 30px;
+			padding: 20px 10px;
 		}
 		@media #{$lg,$xxs} {
-			padding: 20px 20px 20px;
+			padding: 35px;
 		}
 		&:hover {
 			.service-icon {

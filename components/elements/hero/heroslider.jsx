@@ -11,16 +11,16 @@ const HeroSlider = () => {
     const SliderItem = [
         {
             id: 1,
-            sliderBg: '/assets/img/banner/banner1.png',
+            sliderBg: '/assets/img/banner/banner3c.png',
             sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
-            sliderTitle: 'Custom Web Design for Landscaping Businesses',
+            sliderTitle: 'Custom Landscaping Business Web Design',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
         },
         {
             id: 2,
-            sliderBg: '/assets/img/banner/banner1.png',
-            sliderSubtitle: 'we specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
+            sliderBg: '/assets/img/banner/banner2.png',
+            sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
             sliderTitle: 'Get More Leads and Customers',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
@@ -28,7 +28,7 @@ const HeroSlider = () => {
         {
             id: 3,
             sliderBg: '/assets/img/banner/banner1.png',
-            sliderSubtitle: 'we specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
+            sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
             sliderTitle: 'Experience the Best in Web Design',
             sliderbtn: 'request an estimate',
             sliderbtn2: 'About Us',
@@ -84,7 +84,7 @@ const HeroSlider = () => {
                                         <div className="single-banner single-banner-1 banner-850 d-flex align-items-center pos-rel">
                                             <div className="banner-bg banner-bg1 banner-bg1-1" style={{ backgroundImage: `url(${item.sliderBg})`}}>
                                             </div>
-                                            <div className="container pos-rel">
+                                            <div className="container pos-rel" style={{"background":"#1f1f1fb8", "maxWidth":"1200px", "borderRadius":"2vh"}}>
                                                 <div className="row align-items-center">
                                                     <div className="col-12">
                                                         <div className="banner-content banner-content1 banner-content1-1 pt-0">

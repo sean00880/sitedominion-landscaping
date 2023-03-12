@@ -11,6 +11,7 @@ import FoundationSection from './foundation-section';
 import PortfolioSection from './portfolio-section';
 import PricingSection from './pricing-section';
 import ServiceSection from './service-section';
+import ServiceSectionFour from '../home-4/service-section-four';
 import TestimonialSection from './testimonial-section';
 import WorkSection from './work-section';
 
@@ -22,6 +23,7 @@ const index = () => {
       <HeroSlider />
       <ServiceSection />
       <FoundationSection />
+      <ServiceSectionFour/>
       <PricingSection />
       <PortfolioSection />
       <WorkSection />

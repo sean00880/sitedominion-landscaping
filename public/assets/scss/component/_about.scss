@@ -117,7 +117,7 @@
 .founder-desciption {
 	.designation {
 		font-size: 16px;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		text-transform: uppercase;
 		font-weight: 700;
 		display: block;
@@ -140,11 +140,11 @@
 	flex-wrap: wrap;
 	gap: 20px;
 	.fill-btn-rounded {
-		background: var(--clr-theme-2);
-		border-color: var(--clr-theme-2);
+		background: #92b48f;
+		border-color: #92b48f;
 		&:hover {
 			background: var(--clr-common-white);
-			color: var(--clr-theme-2);
+			color: #92b48f;
 		}
 	}
 }
@@ -178,8 +178,8 @@
 			border-radius: 6px;
 			border-width: 2px;
 			&:hover{
-				background: var(--clr-theme-2);
-				border-color: var(--clr-theme-2);
+				background: #92b48f;
+				border-color: #92b48f;
 				color: var(--clr-common-white);
 			}
 		}
@@ -320,8 +320,8 @@
 		font-weight: 700;
 		color: var(--clr-common-white);
 		text-transform: uppercase;
-		background: var(--clr-theme-2);
-		border: 1px solid var(--clr-theme-2);
+		background: #92b48f;
+		border: 1px solid #92b48f;
 		padding: 0 90px 0;
 		position: relative;
 		height: 140px;
@@ -436,7 +436,7 @@
 	}
 }
 .service-tab-point {
-	background: var(--clr-theme-2);
+	background: #92b48f;
 	position: relative;
 	border-radius: 10px;
 	display: flex;
@@ -477,7 +477,7 @@
 		line-height: 50px;
 		background: #fff;
 		border-radius: 50%;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		font-size: 20px;
 		min-width: 50px;
 	}

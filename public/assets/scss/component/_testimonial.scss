@@ -46,9 +46,9 @@
 		a {
 			font-size: 14px;
 			font-weight: 400;
-			color: var(--clr-common-white);
+			color: #d2b116;
 		}
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		display: inline-flex;
 		height: 30px;
 		padding: 0 14px;
@@ -102,7 +102,7 @@
 		.author-designation {
 			font-size: 16px;
 			font-weight: 700;
-			color: var(--clr-theme-2);
+			color: #92b48f;
 			text-transform: uppercase;
 			line-height: 1;
 			display: block;
@@ -199,7 +199,7 @@
 	.testimonial-icon {
 		width: 55px;
 		height: 55px;
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		border-radius: 50%;
 		color: var(--clr-common-white);
 		font-size: 18px;
@@ -213,7 +213,7 @@
 			content: "";
 			width: 16px;
 			height: 16px;
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			position: absolute;
 			left: 8px;
 			bottom: -8px;
@@ -237,7 +237,7 @@
 	.author-designation {
 		font-size: 16px;
 		font-weight: 700;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		text-transform: uppercase;
 		line-height: 1;
 		display: block;
@@ -266,7 +266,7 @@
 			height: 100%;
 			right: -6px;
 			bottom: -6px;
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			border-radius: 50%;
 			z-index: -1;
 			opacity: 0;
@@ -376,7 +376,7 @@
 			position: absolute;
 			width: 1px;
 			height: 60px;
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			left: 50%;
 			transform: translateX(-50%);
 			top: 50px;
@@ -385,7 +385,7 @@
 				content: "";
 				width: 1px;
 				height: 20px;
-				background: var(--clr-theme-2);
+				background: #92b48f;
 				bottom: 0;
 				left: -11px;
 			}
@@ -394,7 +394,7 @@
 				content: "";
 				width: 1px;
 				height: 20px;
-				background: var(--clr-theme-2);
+				background: #92b48f;
 				bottom: 0;
 				right: -11px;
 			}
@@ -441,7 +441,7 @@
 		.author-designation {
 			font-size: 16px;
 			font-weight: 700;
-			color: var(--clr-theme-2);
+			color: #92b48f;
 			text-transform: uppercase;
 			line-height: 1;
 			display: block;
@@ -570,7 +570,7 @@
 }
 .style-4 {
 	.testimonial-content {
-		border: 2px solid var(--clr-theme-2);
+		border: 2px solid #92b48f;
 		border-radius: 10px;
 		background: var(--clr-common-white);
 		position: relative;
@@ -649,7 +649,7 @@
 	.author-designation {
 		font-size: 14px;
 		font-weight: 700;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		text-transform: uppercase;
 		line-height: 1;
 		display: block;
@@ -670,7 +670,7 @@
 	}
 	.rating a {
 		font-size: 16px;
-		color: #e5c21f;
+		color: #e4d264;
 	}
 }
 .testimonial-4-shape {
@@ -700,8 +700,8 @@
 		border-color: var(--clr-common-white);
 		background: var(--clr-common-white);
 		@media #{$md,$sm,$xs} {
-			border-color: var(--clr-theme-2);
-			background: var(--clr-theme-2);
+			border-color: #92b48f;
+			background: #92b48f;
 			color: var(--clr-common-white);
 		}
 	}

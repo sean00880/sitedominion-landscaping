@@ -431,9 +431,19 @@ div.mean-container {
 	display: inline-block;
 	img {
 		width: 54%;
-		bottom: 2vh;
-		position: relative;
+		position:relative;
+		bottom:2vh;
+		@media #{$xl} {
+			bottom:0vh;
+		}
+		@media #{$sm,$xs,$lg,$md} {
+			bottom:0vh;
+		}
+		@media #{$xxs} {
+			bottom:0vh;
+		}
 	}
+	
 }
 .header-main-right-header1 .action-btn{
 	color: #252525;
@@ -631,7 +641,7 @@ div.mean-container {
 			color: var(--clr-common-white);
 			margin-bottom: 0;
 		}
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		height: 80px;
 		border-radius: 0 0 10px 10px;
 		position: relative;
@@ -714,7 +724,7 @@ div.mean-container {
 		height: 208px;
 		right: -56px;
 		bottom: -37px;
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		border-radius: 50%;
 		z-index: -1;
 		@media #{$sm,$xs}{
@@ -767,8 +777,8 @@ div.mean-container {
 		color: var(--clr-common-white);
 		&:hover {
 			color: var(--clr-common-white);
-			border-color: var(--clr-theme-2);
-			background: var(--clr-theme-2);
+			border-color: #92b48f;
+			background: #92b48f;
 		}
 	}
 	.action-btn {
@@ -779,8 +789,8 @@ div.mean-container {
 		z-index: 2;
 		&:hover {
 			color: var(--clr-common-white);
-			border-color: var(--clr-theme-2);
-			background: var(--clr-theme-2);
+			border-color: #92b48f;
+			background: #92b48f;
 		}
 	}
 	.bar-icon span {
@@ -871,8 +881,8 @@ div.mean-container {
 		color: var(--clr-common-white);
 		border-width: 2px;
 		&:hover{
-			border-color: var(--clr-theme-2);
-			background: var(--clr-theme-2);
+			border-color: #92b48f;
+			background: #92b48f;
 		}
 	}
 	.bar-icon span {
@@ -1070,7 +1080,7 @@ div.mean-container {
 	.support-meta .support-number {
 		color: #252525;
 		&:hover{
-			color: var(--clr-theme-2);
+			color: #92b48f;
 		}
 	}
 	.footer-social span {

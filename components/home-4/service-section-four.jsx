@@ -6,6 +6,14 @@ const ServiceSectionFour = () => {
     return (
         <section className="services-area style-4 pb-90">
             <div className="container">
+            <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
+               <div className="col-lg-8">
+                  <div className="section-title text-center pricing-section-title" >
+                     <span className="section-subtitle" style={{"color":"#cd0508"}}>Process</span>
+                     <h2 className="section-main-title mb-45" style={{"color":"#252525"}}>full-service web development</h2>
+                  </div>
+               </div>
+            </div>
                 <div className="services-wrapper">
                     {ServicesList &&
                         <div className="row">

@@ -6,35 +6,52 @@
 .pricing-section-title {
 	.section-subtitle {
 		color: #84a99c;
+		
 	}
 	.section-main-title {
 		color: var(--clr-common-white);
 	}
 }
+
+.pricing-area .container{
+	display: flex;
+    flex-direction: column;
+	align-items: center;
+}
+
+.pricinglogo{
+	width:200px;
+	height:200px;
+	align-self: flex-end;
+}
+
 .pricing-content {
-	border: 2px solid #124936;
+	border: 2px solid #92b48f;
 	border-radius: 10px 10px 0 0;
 	border-bottom: 0;
 	padding: 53px 38px 43px;
 	text-align: center;
 	position: relative;
 	z-index: 2;
+	background:#f7f7f7;
 	@media #{$xl} {
 		padding: 53px 28px 43px;
 	}
 }
 .package-name {
-	font-size: 16px;
+	font-size: 21px;
 	text-transform: uppercase;
 	color: #84a99c;
 	font-weight: 700;
 	display: block;
 	margin-bottom: 0;
+	font-family: 'Alumni Sans',sans-serif;
+	font-style: italic;
 }
 .package-price {
-	font-size: 60px;
-	font-weight: 700;
-	color: var(--clr-common-white);
+	font-size: 60px;	
+	font-style: italic;
+	color: #252525;
 	display: block;
 	font-family: "Poppins", sans-serif;
 	margin-top: 27px;
@@ -45,9 +62,9 @@
 }
 .package-list {
 	li {
-		font-size: 16px;
+		font-size: 12px;
 		font-weight: 700;
-		color: var(--clr-common-white);
+		color: #252525;
 		text-transform: uppercase;
 		border-bottom: 1px solid #134a37;
 		padding-bottom: 16px;
@@ -59,17 +76,17 @@
 		}
 	}
 	li.n-inc {
-		color: #7fa296;
+		color: #acabab;
 	}
 }
 .pricing-btn {
 	.fill-btn {
 		width: 100%;
-		background: #124936;
+		background: #92b48f;
 		border-radius: 0;
-		border-color: #124936;
+		border-color: #92b48f;
 		&:hover {
-			color: #124936;
+			color: #92b48f;
 			background: var(--clr-common-white);
 			border-color: var(--clr-common-white);
 		}
@@ -83,6 +100,7 @@
 	top: 20px;
 	left: 0;
 	right: 0;
+	display: none;
 }
 .single-pricing {
 	position: relative;
@@ -91,9 +109,10 @@
 	font-size: 14px;
 	font-weight: 700;
 	text-transform: uppercase;
-	color: var(--clr-common-white);
-	border: 2px solid var(--clr-theme-2);
+	color: #1d1d1d;
+	border: 2px solid #ffffff;
 	border-radius: 10px 10px 0 0;
+	background:linear-gradient(45deg, #e5a021, #fddd8d);;
 	height: 30px;
 	text-align: center;
 	line-height: 28px;
@@ -115,7 +134,7 @@
 		background: var(--clr-common-white);
 	}
 	.package-name {
-		color: var(--clr-theme-2);
+		color: #141414;
 	}
 	.package-price {
 		color: #252525;
@@ -126,16 +145,17 @@
 			border-color: #f1f1f1;
 		}
 		li.n-inc {
-			color: #7fa296;
+			color: #ac3d3d;
 		}
 	}
 	.pricing-btn {
 		.fill-btn {
-			background: var(--clr-theme-2);
-			border-color: var(--clr-theme-2);
+			background: linear-gradient(45deg, #e5a021, #fddd8d);
+			border-color: #e5a021;
+			color:#1d1b1b;
 			&:hover {
-				background: #124936;
-				border-color: #124936;
+				background: #92b48f;
+				border-color: #92b48f;
 				color: var(--clr-common-white);
 			}
 		}

@@ -1,23 +1,21 @@
 import { useRouter } from 'next/router';
 import { useEffect, useState } from 'react';
-import PortfolioDetailsArea from '../../components/portfolio-details/portfolio-details-area2';
+import BlogDetailsArea from '../../components/blogdetails/blog-details-area';
 import SEO from '../../components/seo';
-import portfolioList from '../../data/portfolio-data';
+import blogItemsList from '../../data/blogs';
 import FooterOne from '../../layout/footers/footer';
 import HeaderOne from '../../layout/headers/header';
 
-
-
-const PortfoliosDetails = () => {
+const BlogsDetails = () => {
   const router = useRouter();
   const id = router.query.id;
-  const [portfolio, setPortfolio] = useState({});
+  const [blog, setBlog] = useState({});
 
 
   useEffect(() => {
     if (!id) (<h1>Loading...</h1>)
 
-    else (setPortfolio(portfolioList.find(item => item.id == id)))
+    else (setBlog(blogItemsList.find(item => item.id == id)))
 
     return () => {
 
@@ -26,14 +24,14 @@ const PortfoliosDetails = () => {
 
   return (
     <>
-      <SEO pageTitle={'Portfolio Details'} />
+      <SEO pageTitle={'Blog Details'} />
       <HeaderOne />
       <main>
-        <PortfolioDetailsArea item={portfolio} />
+        <BlogDetailsArea item={blog} />
       </main>
       <FooterOne />
     </>
   );
 };
 
-export default PortfoliosDetails;
+export default BlogsDetails;

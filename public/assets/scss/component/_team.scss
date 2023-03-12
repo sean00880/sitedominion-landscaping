@@ -3,7 +3,7 @@
 .member-designation {
 	font-size: 16px;
 	font-weight: 700;
-	color: var(--clr-theme-2);
+	color: #92b48f;
 	text-transform: uppercase;
 	line-height: 1;
 	display: inline-block;
@@ -18,7 +18,7 @@
 	}
 	a {
 		&:hover {
-			color: var(--clr-theme-2);
+			color: #92b48f;
 		}
 	}
 }
@@ -38,8 +38,8 @@
 				background: var(--clr-common-white);
 				&:hover {
 					color: var(--clr-common-white);
-					background: var(--clr-theme-2);
-					border-color: var(--clr-theme-2);
+					background: #92b48f;
+					border-color: #92b48f;
 				}
 			}
 		}
@@ -309,7 +309,7 @@
 		overflow: inherit;
 		background-color: var(--clr-theme-3);
 		.progress-bar {
-			background: var(--clr-theme-2);
+			background: #92b48f;
 			position: relative;
 			overflow: inherit;
 			border-radius: 10px;
@@ -343,7 +343,7 @@
 	top: 0;
 	font-size: 14px;
 	font-weight: 700;
-	color: var(--clr-theme-2);
+	color: #92b48f;
 	font-family: "Poppins", sans-serif;
 	line-height: 1;
 }
@@ -356,8 +356,8 @@
 		background: var(--clr-common-white);
 		&:hover {
 			color: var(--clr-common-white);
-			background-color: var(--clr-theme-2);
-			border-color: var(--clr-theme-2);
+			background-color: #92b48f;
+			border-color: #92b48f;
 		}
 	}
 }

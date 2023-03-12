@@ -9,8 +9,8 @@ const PortfolioDetailsArea = ({ item }) => {
                     <div className="row">
                         <div className="col-lg-12">
                             <div className="page-title-wrapper">
-                                <p>Provides hassle-free backyard transformation</p>
-                                <h1 className="page-title mb-10">{item.portfolioTitle}</h1>
+                                <p>{item.titleDescription}</p>
+                                <h1 className="page-title mb-10">{item.title}</h1>
                             </div>
                         </div>
                     </div>
@@ -59,28 +59,26 @@ const PortfolioDetailsArea = ({ item }) => {
                                 </div>
                             </div>
                         </div>
-                        <p className="mb-20">Our customized content solutions utilize key word density that we craft specifically for
-                            your needs.We take pride in writing original, effective and engaging content that sets you
-                            apart in an Internet awash with thin, dull filler copy. We develop your feature articles, newsletters,
-                            white papers, social media messages harmoniously to generate top internet
-                            rankings in any market. We take pride in giving your blog, newsletter or website the professional
-                            polish it deserves and helping you build your brand. <Link href="/team"><a>Our marketing team</a></Link> has
-                            more than three decades of industry experience developing and promoting content across a broad
-                            spectrum of channels. Our integrated marketing strategies have a proven
-                            success record backed with industry-leading database management tools. When you choose Business
-                            Content, you gain access to some of the most informative analytics in the industry, making every campaign an investment in your future success.</p>
-                            <p><span>We know you have a choice.</span> We believe you’ll choose Business Content for our knowledge
-                            and comprehensive marketing
-                            programs. We know you’ll stay with us because of the
-                            outstanding results and customer satisfaction we deliver. We’re dedicated to staying ahead of the
-                            curve and being your
-                            value-added marketing partner. We know you have a
-                            choice. We believe you’ll choose Business Content for our knowledge and comprehensive marketing
-                            programs. We know you’ll
-                            stay with us because of the outstanding results &
-                            customer satisfaction we deliver. We’re dedicated to staying ahead of the curve and being your
-                            value-added marketing
-                            partner.</p>
+                        <h2>Design Considerations</h2>
+                        <p>{item.para1}</p>
+
+                        <h2>Website Functionality</h2>
+                        <p>{item.para2}</p>
+                        <p>{item.para3}</p>
+
+                        <h2>Technology Stack</h2>
+                        <p className="mb-20">At Site Dominion, we create NextJS websites with EmailJS to help businesses generate leads. Our process involves a few key steps.
+
+First, we work closely with the client to understand their specific needs and goals. We take the time to understand their target audience, their brand identity, and their desired user experience.
+
+Next, we design and develop a custom website using NextJS. We use NextJS because it offers excellent performance and SEO capabilities, which are essential for generating leads.
+
+Once the website is built, we integrate EmailJS into the site. EmailJS allows us to easily set up email forms and automation, which are critical for lead generation. We configure the forms to capture the information that the client needs, such as name, email, and phone number.
+
+Finally, we test the website thoroughly to ensure that it is working correctly and meeting the client's needs. We make any necessary tweaks and adjustments based on feedback from the client.</p>
+                            <p>Our process of creating NextJS websites with EmailJS is designed to help businesses generate leads and grow their customer base. We are committed to delivering high-quality websites that help our clients achieve their business goals.</p>
+                        <h2>Conclusion</h2>
+                        <p>{item.para4}</p>
                         <div className="portfolio-sub-image">
                             <img src="/assets/img/portfolio/portfolio-sub1.jpg" alt="" />
                             <img src="/assets/img/portfolio/portfolio-sub2.jpg" alt="" />

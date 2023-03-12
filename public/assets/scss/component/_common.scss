@@ -244,6 +244,7 @@ p {
 }
 .pos-rel {
 	position: relative;
+	
 }
 .pos-abs {
 	position: absolute;
@@ -609,7 +610,7 @@ p {
 	line-height: 1;
 	overflow: hidden;
 	&:hover {
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		i:first-child {
 			margin-left: 0;
 		}
@@ -655,7 +656,7 @@ p {
 	}
 	&:hover {
 		color: var(--clr-common-white);
-		background: var(--clr-theme-2);
+		background: #92b48f;
 	}
 }
 // btn style end
@@ -698,12 +699,13 @@ p {
 	font-size: 16px;
 	text-transform: uppercase;
 	font-weight: 700;
-	color: var(--clr-theme-2);
+	color: #92b48f;
 	display: block;
 	margin-bottom: 10px;
 	margin-top: -2px;
 	line-height: 1;
 	font-style: italic;
+	
 }
 .style-2 {
 	.section-subtitle {
@@ -717,7 +719,7 @@ p {
 		text-transform: uppercase;
 		color: var(--clr-common-white);
 		height: 30px;
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		line-height: 30px;
 		display: inline-block;
 		padding: 0 20px 0 32px;
@@ -741,7 +743,7 @@ p {
 		font-size: 16px;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		display: block;
 		margin-bottom: 10px;
 		margin-top: -2px;
@@ -753,7 +755,7 @@ p {
 		font-size: 16px;
 		text-transform: uppercase;
 		font-weight: 700;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		display: block;
 		margin-bottom: 10px;
 		margin-top: -2px;

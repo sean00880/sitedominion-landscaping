@@ -19,7 +19,7 @@ const ServicesList = [
     },
     {
         id:3,
-        serviceImg:'/assets/img/service/service-img-st2-3.jpg',
+        serviceImg:'/assets/img/service/service3.png',
         serviceIcon:'/assets/img/icon/construction.png',
         serviceTitle:'Landscape Construction Website Development',
         serviceBadge:'',
@@ -94,8 +94,8 @@ const ServicesList = [
     {
         id:11,
         serviceImg:'',
-        serviceIcon:'/assets/img/icon/s-icon1.png',
-        serviceTitle:'Garden landscaping',
+        serviceIcon:'/assets/img/service/development.svg',
+        serviceTitle:'Step 1: Website Design & Development',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'read more',
@@ -103,8 +103,8 @@ const ServicesList = [
     {
         id:12,
         serviceImg:'',
-        serviceIcon:'/assets/img/icon/s-icon2.png',
-        serviceTitle:'soil making & carbo',
+        serviceIcon:'/assets/img/service/seo.svg',
+        serviceTitle:'Step 2: Website Deployment',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'read more',
@@ -112,8 +112,8 @@ const ServicesList = [
     {
         id:13,
         serviceImg:'',
-        serviceIcon:'/assets/img/icon/s-icon3.png',
-        serviceTitle:'planting plants',
+        serviceIcon:'/assets/img/service/deployment.svg',
+        serviceTitle:'Step 3: Blog Development + SEO',
         serviceBadge:'',
         serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
         serviceBtn:'read more',

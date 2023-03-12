@@ -45,7 +45,7 @@
 	}
 	a {
 		&:hover {
-			color: var(--clr-theme-2);
+			color: #92b48f;
 		}
 	}
 }
@@ -70,7 +70,7 @@
 	.product-price {
 		font-size: 20px;
 		font-weight: 700;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		display: flex;
 		gap: 5px;
 		line-height: 1;
@@ -198,7 +198,7 @@
 	.product-price {
 		font-size: 20px;
 		font-weight: 700;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 		display: flex;
 		gap: 5px;
 		line-height: 1;
@@ -213,7 +213,7 @@
 	}
 	.price-now {
 		font-size: 36px;
-		color: var(--clr-theme-2);
+		color: #92b48f;
 	}
 }
 .product-d-meta {
@@ -233,7 +233,7 @@
 				a {
 					color: #999999;
 					&:hover {
-						color: var(--clr-theme-2);
+						color: #92b48f;
 					}
 				}
 			}
@@ -479,10 +479,10 @@
 			border-width: 2px;
 			height: 60px;
 			line-height: 56px;
-			color: var(--clr-theme-2);
+			color: #92b48f;
 			&:hover {
-				border-color: var(--clr-theme-2);
-				background: var(--clr-theme-2);
+				border-color: #92b48f;
+				background: #92b48f;
 				color: var(--clr-common-white);
 			}
 		}
@@ -528,7 +528,7 @@
 		position: relative;
 		transform: scaleX(1);
 		&:hover {
-			color: var(--clr-theme-2);
+			color: #92b48f;
 		}
 		&:not(:first-child)::before {
 			position: absolute;
@@ -572,7 +572,7 @@
 		position: absolute;
 		top: 0;
 		right: 20px;
-		background: var(--clr-theme-2);
+		background: #92b48f;
 		text-align: center;
 		color: var(--clr-common-white);
 		line-height: 45px;
@@ -626,7 +626,7 @@
 	height: 60px;
 	text-align: center;
 	font-size: 20px;
-	color: var(--clr-theme-2);
+	color: #92b48f;
 	background: var(--clr-common-white);
 	line-height: 60px;
 	border-radius: 6px;
@@ -645,7 +645,7 @@
 	text-transform: uppercase;
 	color: #252525;
 	span{
-		color: var(--clr-theme-2);
+		color: #92b48f;
 	}
 }
 .filter-buttons {
@@ -668,7 +668,7 @@
 	}
 	padding: 0;
 		i {
-			color: var(--clr-theme-2);
+			color: #92b48f;
 			margin-right: 10px;
 		}
 	}
@@ -688,7 +688,7 @@
 	}
 	padding: 0;
 		i {
-			color: var(--clr-theme-2);
+			color: #92b48f;
 			margin-left: 3px;
 		}
 	}
