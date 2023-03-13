@@ -3,7 +3,7 @@ import React from 'react';
 
 const Breadcrumb = ({ breadTitle, breadSubtitle, breadHome, breadMenu }) => {
    return (
-      <section className="page-title-area" style={{ background: "url(/assets/img/bg/page-title-bg.jpg)" }}>
+      <section className="page-title-area" style={{ background: "url(/assets/img/logo/logogreen.png)", backgroundSize:"contain", backgroundPosition:"center",backgroundRepeat:"no-repeat",backgroundAttachment:"fixed"}}>
          <div className="container">
             <div className="row">
                <div className="col-lg-12">

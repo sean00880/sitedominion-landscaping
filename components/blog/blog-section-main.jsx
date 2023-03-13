@@ -28,7 +28,7 @@ const BlogSectionMain = () => {
                <div className="col-xl-9 col-lg-8 col-md-12">
                   <div className="blog-main-wrapper mb-60">
 
-                     {blogItemsList.slice(11, 15).map((blog, i) => (
+                     {blogItemsList.slice(0, 3).map((blog, i) => (
                         <div key={i} className="blog-single">
 
                            {!blog.video && !blog.slider && !blog.withoutImg && <div className="blog-thumb">

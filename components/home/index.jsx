@@ -30,7 +30,7 @@ const index = () => {
       <PortfolioSection />
      
       <TestimonialSection />
-   
+      <BlogSection />
       <BrandSlider />
       <FooterOne />
     </main>

@@ -84,7 +84,7 @@ const HeroSlider = () => {
                                         <div className="single-banner single-banner-1 banner-850 d-flex align-items-center pos-rel">
                                             <div className="banner-bg banner-bg1 banner-bg1-1" style={{ backgroundImage: `url(${item.sliderBg})`}}>
                                             </div>
-                                            <div className="container pos-rel" style={{"background":"#1f1f1fb8", "maxWidth":"1200px", "borderRadius":"2vh"}}>
+                                            <div className="container pos-rel" style={{"background":"rgb(0 0 0 / 80%)", "maxWidth":"1200px", "borderRadius":"2vh"}}>
                                                 <div className="row align-items-center">
                                                     <div className="col-12">
                                                         <div className="banner-content banner-content1 banner-content1-1 pt-0">

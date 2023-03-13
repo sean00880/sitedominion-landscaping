@@ -24,7 +24,7 @@ const BlogsDetails = () => {
 
   return (
     <>
-      <SEO pageTitle={'Blog Details'} />
+      <SEO pageTitle={'Site Dominion | Blog Posts'} />
       <HeaderOne />
       <main>
         <BlogDetailsArea item={blog} />

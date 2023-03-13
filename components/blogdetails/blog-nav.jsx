@@ -1,7 +1,10 @@
 import Link from 'next/link';
 import React from 'react';
 
+
+  
 const BlogNav = () => {
+    
     return (
         <div className="blog-nav-wrapper mb-60">
             <div className="blog-nav-items">
@@ -35,5 +38,6 @@ const BlogNav = () => {
         </div>
     );
 };
+
 
 export default BlogNav;

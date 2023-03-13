@@ -44,10 +44,15 @@
 		@media #{$lg,$sm,$xs} {
 			margin: -1px -1px 0px -1px;
 		}
+		a{
+			display:flex;
+			flex-direction: column;
+		}
 		img {
-			width: 100%;
-			height: 100%;
+			width: 67%;
+			padding: 1vh;
 			object-fit: cover;
+			align-self: center;
 		}
 		.play-btn {
 			width: 80px;
@@ -1014,8 +1019,13 @@
 		width: 100%;
 		overflow: hidden;
 		border-radius: 10px;
+		a{
+			display: flex;
+			flex-direction: column;
+		}
 		img {
-			width: 100%;
+			height: 300px;
+			align-self: center;
 		}
 	}
 	.blog-meta-text {
@@ -1062,6 +1072,7 @@
 		text-transform: uppercase;
 		line-height: 1.4;
 		margin-bottom: 29px;
+		margin:1vh 0;
 		@media #{$xl} {
 			font-size: 22px;
 		}

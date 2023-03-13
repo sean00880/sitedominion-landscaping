@@ -9,7 +9,7 @@ const SidebarBlogs = () => {
             <div className="sidebar-blog-list">
                 {blogItemsList &&
                     <ul>
-                        {blogItemsList.slice(8, 11).map((item, num) => (
+                        {blogItemsList.slice(0, 3).map((item, num) => (
                             <li key={num}>
                                 <div className="blog-single">
                                     <div className="blog-thumb">
