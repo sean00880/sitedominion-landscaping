@@ -9,9 +9,8 @@ const ContactFormSection = () => {
                         <div className="contact-wrapper">
                             <div className="contact-wrapper-content">
                                 <div className="section-title">
-                                    <span className="section-subtitle">call to action</span>
-                                    <h2 className="section-main-title mb-35">Send Us A Message
-                                        For Next Project</h2>
+                                    <span className="section-subtitle">contact</span>
+                                    <h2 className="section-main-title mb-35">Send Us A Message...</h2>
                                 </div>
                                 <div className="contact-form">
                                     <form action="#">
@@ -33,7 +32,7 @@ const ContactFormSection = () => {
                                             </div>
                                         </div>
                                         <div className="contact-btn">
-                                            <button type='submit' className="fill-btn"><i className="fal fa-farm"></i><span>Get a Quote</span></button>
+                                            <button type='submit' className="fill-btn"><i className="fal fa-farm"></i><span>Send Message</span></button>
                                         </div>
                                     </form>
                                 </div>

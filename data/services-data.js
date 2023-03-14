@@ -97,7 +97,7 @@ const ServicesList = [
         serviceIcon:'/assets/img/service/development.svg',
         serviceTitle:'Step 1: Website Design & Development',
         serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
+        serviceDesc:'In this stage, your website is designed. We leverage the powers of NextJs and use best programming practices to deliver websites with modern UI/UX.',
         serviceBtn:'read more',
     },
     {
@@ -106,7 +106,7 @@ const ServicesList = [
         serviceIcon:'/assets/img/service/seo.svg',
         serviceTitle:'Step 2: Website Deployment',
         serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
+        serviceDesc:'In this stage, your website is pushed into deployment. We setup hosting, domain as well as all of the DNS configurations for your website.',
         serviceBtn:'read more',
     },
     {
@@ -115,7 +115,7 @@ const ServicesList = [
         serviceIcon:'/assets/img/service/deployment.svg',
         serviceTitle:'Step 3: Blog Development + SEO',
         serviceBadge:'',
-        serviceDesc:'The laying out and care of a plot of ground devoted partially or wholly.',
+        serviceDesc:'Lastly, we setup your blog, add canonical tags, meta tags and a website sitemap to further improve SEO. This helps with getting more visibility via search engines.',
         serviceBtn:'read more',
     },
     //home four service end

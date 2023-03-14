@@ -4,7 +4,7 @@ import ServicesList from '../../data/services-data';
 
 const ServiceSection = () => {
     return (
-        <section className="services-area services-area-2">
+        <section className="services-area services-area-2 pb-90">
          <div className="container">
            
             <div className="services-wrapper services-wrapper-2">
@@ -52,7 +52,7 @@ const ServiceSection = () => {
                   </div>
                   <h3>Provides Hassle-Free Backyard Transformations
                      with Artistic Solutions.</h3>
-                    <Link href="/contact"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                    <Link href="/#pricing"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>View Pricing</span></a></Link>
                </div>
             </div>
          </div>

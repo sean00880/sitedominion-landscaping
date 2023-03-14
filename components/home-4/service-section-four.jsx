@@ -4,7 +4,7 @@ import ServicesList from '../../data/services-data';
 
 const ServiceSectionFour = () => {
     return (
-        <section className="services-area style-4 pb-90">
+        <section className="services-area style-4 pb-90" id="service">
             <div className="container">
             <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-8">

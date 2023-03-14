@@ -51,7 +51,7 @@ const HeaderOne = () => {
                                     </div>
                                     <div className="header-main-right header-main-right-header1">
                                         
-                                        <Link href="/contact"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get a Quote</span></a></Link>
+                                        <Link href="/#pricing"><a className="border-btn-rounded d-none d-lg-inline-flex"><i className="fal fa-farm"></i><span>Get Started</span></a></Link>
                                         <div className="menu-bar d-xl-none">
                                             <span className="side-toggle" onClick={() => setShowSidebar(true)}>
                                                 <div className="bar-icon">

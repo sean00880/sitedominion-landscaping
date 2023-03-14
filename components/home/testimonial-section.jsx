@@ -8,7 +8,7 @@ const TestimonialSection = () => {
     const openVideoModal = () => setIsOpen(!isOpen);
 
     return (
-        <section className="testimonial-area pt-120 pb-155">
+        <section className="testimonial-area pt-120 pb-155" id="testimonials">
          <div className="container">
             <div className="row wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-6">

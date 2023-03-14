@@ -2,7 +2,7 @@ export const testimonial = [
     {
       id:1,
       icon: '/assets/img/icon/test-icon.png',
-      desc:`“ started with a simple idea: Deliver quality, well-designed landscape for home, business and public spaces. ”`,
+      desc:`“I recently worked with Site Dominion to create a website for my small business, and I was blown away by their professionalism, expertise, and creativity. From the initial consultation to the final product, the team at Site Dominion was a pleasure to work with.”`,
       starA:'fas fa-star',
       starB:'fas fa-star',
       starC:'fas fa-star',
@@ -12,7 +12,7 @@ export const testimonial = [
     {
       id:2,
       icon: '/assets/img/icon/test-icon.png',
-      desc:`“ well-designed landscape for home, started with a simple idea: Deliver quality, business and public spaces. ”`,
+      desc:`“Sean helped me with developing a website for my business. I loved the functionality of it and it's quite eye catching, at least to me! I definitely recommend him. ”`,
       starA:'fas fa-star',
       starB:'fas fa-star',
       starC:'fas fa-star',
@@ -22,7 +22,7 @@ export const testimonial = [
     {
       id:3,
       icon: '/assets/img/icon/test-icon.png',
-      desc:`“ started with a simple idea: Deliver quality, well-designed landscape for home, business and public spaces. ”`,
+      desc:`“Absolutely fantastic work. Professional, as well.”`,
       starA:'fas fa-star',
       starB:'fas fa-star',
       starC:'fas fa-star',
@@ -32,7 +32,7 @@ export const testimonial = [
     {
       id:4,
       icon: '/assets/img/icon/test-icon.png',
-      desc:`“ well-designed landscape for home, started with a simple idea: Deliver quality, business and public spaces. ”`,
+      desc:`“Great customer service! It has helped me a lot for my growth!”`,
       starA:'fas fa-star',
       starB:'fas fa-star',
       starC:'fas fa-star',
@@ -44,23 +44,23 @@ export const testimonial = [
   export const testimonial_nav = [
     {
       img:'/assets/img/testimonial/author-2.jpg',
-      designation: 'head of idea',
-      author: 'humble d. dow',
+      designation: 'CEO of ALS LLC',
+      author: 'Mert Gulen',
     },
     {
       img:'/assets/img/testimonial/author-1.jpg',
-      designation: 'designer',
-      author: 'yellow m. milso',
+      designation: 'CEO of Zen Marketing',
+      author: 'Jocelyn Zurita',
     },
     {
       img:'/assets/img/testimonial/author-2.jpg',
-      designation: 'head of idea',
-      author: 'humble d. dow',
+      designation: 'Manager at Horizon Infinite',
+      author: 'Alexander Evans',
     },
     {
       img:'/assets/img/testimonial/author-1.jpg',
-      designation: 'designer',
-      author: 'yellows m. milso',
+      designation: 'SMMA CEO',
+      author: 'Oliver F.',
     }
   ]
 

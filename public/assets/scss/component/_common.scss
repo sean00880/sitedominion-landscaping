@@ -809,6 +809,7 @@ p {
 // play-btn style 
 .play-border-effect{
 	position: relative;
+	display: block;
 	&::before, &::after {
 		position: absolute;
 		left: 0;

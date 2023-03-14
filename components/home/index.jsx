@@ -14,6 +14,7 @@ import ServiceSection from './service-section';
 import ServiceSectionFour from '../home-4/service-section-four';
 import TestimonialSection from './testimonial-section';
 import WorkSection from './work-section';
+import AboutMain from '../about/aboutmain2'
 
 
 const index = () => {
@@ -22,7 +23,7 @@ const index = () => {
       <HeaderOne />
       <HeroSlider />
       <ServiceSection />
-      <FoundationSection />
+      <AboutMain />
       
       <ServiceSectionFour/>
       <WorkSection />
@@ -31,7 +32,6 @@ const index = () => {
      
       <TestimonialSection />
       <BlogSection />
-      <BrandSlider />
       <FooterOne />
     </main>
   );

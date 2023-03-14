@@ -4,7 +4,7 @@ import blogItemsList from '../../data/blogs';
 
 const BlogSection = () => {
     return (
-        <section className="blog-area pt-120 pb-75">
+        <section className="blog-area pt-120 pb-75" id="blog">
          <div className="container">
             <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-8">

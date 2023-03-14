@@ -28,7 +28,7 @@ const FoundationSectionFour = () => {
                <div className="col-lg-6">
                   <div className="foundation-content style-2 mb-60">
                      <div className="section-title">
-                        <span className="section-subtitle">since from 2000</span>
+                        <span className="section-subtitle">About Us</span>
                         <h2 className="section-main-title mb-20">Gardeny offers a full-service</h2>
                      </div>
                      <p>Most gardens consist of a mix of natural and constructed elements, although

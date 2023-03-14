@@ -17,21 +17,19 @@ const FoundationSection = () => {
                     <div className="col-lg-6">
                         <div className="foundation-content mb-60">
                             <div className="section-title">
-                                <span className="section-subtitle">since from 2000</span>
-                                <h2 className="section-main-title mb-20">Gardeny offers a
-                                    full-service</h2>
+                                <span className="section-subtitle">About Us</span>
+                                <h2 className="section-main-title mb-20">One-stop-shop for Landscaping Websites</h2>
                             </div>
-                            <p>Most gardens consist of a mix of natural and constructed elements, although
-                                even very natural gardens are always an inherently artificial creation. Natural
-                                elements present in a garden principally. </p>
+                            <p>Welcome to our website, where we specialize in offering top-notch websites and online services to landscaping businesses. Our staff is committed to assisting companies in the landscaping sector to flourish by developing successful internet presences.
+ </p><p>We are dedicated to providing outstanding customer service and going above and beyond for our clients at our web design company. To achieve optimum visibility and traffic, we think every website should be user-friendly, aesthetically pleasing, and search engine optimized.</p>
                             <div className="founder-meta mt-45">
                                 <div className="founder-info-meta">
                                     <div className="founder-img">
-                                        <img src="/assets/img/team/founder.jpg" alt=""/>
+                                        <img src="/assets/img/sean.jpg" alt=""/>
                                     </div>
                                     <div className="founder-desciption">
-                                        <span className="designation">founder</span>
-                                        <h4 className="founder-name">humble d. dowson</h4>
+                                        <span className="designation">Founder</span>
+                                        <h4 className="founder-name">Sean Dwivedi</h4>
                                     </div>
                                 </div>
                                 <Link href="/contact"><a className="fill-btn-rounded">get in touch<i className="fal fa-angle-right"></i></a></Link>

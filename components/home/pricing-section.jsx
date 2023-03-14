@@ -107,7 +107,7 @@ const PricingSection = () => {
       }
    ]
     return (
-        <section className="pricing-area pricing-area-bg pt-120 pb-90">
+        <section className="pricing-area pricing-area-bg pt-120 pb-90" id="pricing">
          <div className="container">
             <div className="row justify-content-center wow fadeInUp" data-wow-delay=".3s">
                <div className="col-lg-8">

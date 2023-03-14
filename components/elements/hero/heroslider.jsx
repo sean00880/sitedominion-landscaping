@@ -14,7 +14,7 @@ const HeroSlider = () => {
             sliderBg: '/assets/img/banner/banner3.png',
             sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
             sliderTitle: 'Custom Landscaping Business Web Design',
-            sliderbtn: 'request an estimate',
+            sliderbtn: 'Get Started',
             sliderbtn2: 'About Us',
         },
         {
@@ -22,7 +22,7 @@ const HeroSlider = () => {
             sliderBg: '/assets/img/banner/banner2.png',
             sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
             sliderTitle: 'Get More Leads and Customers',
-            sliderbtn: 'request an estimate',
+            sliderbtn: 'Get Started',
             sliderbtn2: 'About Us',
         },
         {
@@ -30,7 +30,7 @@ const HeroSlider = () => {
             sliderBg: '/assets/img/banner/banner1.png',
             sliderSubtitle: 'We specialize in creating stunning and effective websites for landscaping businesses. We understand that your business relies heavily on its online presence, which is why we are committed to providing you with customized web design solutions that will help you stand out from the competition.',
             sliderTitle: 'Experience the Best in Web Design',
-            sliderbtn: 'request an estimate',
+            sliderbtn: 'Get Started',
             sliderbtn2: 'About Us',
         }
     ];
@@ -93,8 +93,8 @@ const HeroSlider = () => {
                                                                 <span>{item.sliderSubtitle}</span>
                                                             </div>
                                                             <div className="banner-btn" data-animation="fadeInUp" data-delay=".7s">
-                                                                <Link href="/contact"><a className="fill-btn-rounded">{item.sliderbtn}</a></Link>
-                                                                <Link href="/about"><a className="border-btn-rounded">{item.sliderbtn2}</a></Link>
+                                                                <Link href="/#pricing"><a className="fill-btn-rounded">{item.sliderbtn}</a></Link>
+                                                                <Link href="/#about"><a className="border-btn-rounded">{item.sliderbtn2}</a></Link>
                                                             </div>
                                                         </div>
                                                     </div>
