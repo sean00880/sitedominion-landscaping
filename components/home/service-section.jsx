@@ -7,7 +7,7 @@ const ServiceSection = () => {
         <section className="services-area services-area-2 pb-90">
          <div className="container">
            
-            <div className="services-wrapper services-wrapper-2">
+            <div className="services-wrapper services-wrapper-2" style={{"padding":"2vh"}}>
             <h2>Featured Landscaping Website Services</h2>
             {ServicesList &&
                 <div className="services-inner services-inner-2 wow fadeInUp" data-wow-delay=".3s">
