@@ -9,40 +9,15 @@ const PricingSection = () => {
          id: 1,
          packageIcon: '/assets/img/icon/pricing-icon-1.png',
          packageName: 'basic package',
-         packagePrice: '$49.00',
-         packageService: 'Gardens Service',
-         packagePlaning: 'Forest Planning',
-         packageParty: 'Gardens Party',
-         packageLandscape: 'Preparing Landscape',
-         packageFence: 'Garden Fence',
+         packagePrice: '$49.99',
+         packageService: 'Website Design',
+         packagePlaning: 'Website Development',
+         packageParty: 'Website Deployment',
+         packageLandscape: 'Blog Creation & Setup',
+         packageFence: 'Advanced SEO',
          packageBtn: 'get it now',
          packageActive: 'single-pricing mb-30',
          packageBadge: 'd-none',
-         packageListClassA: 'no-inc',
-         packageListClassB: 'no-inc',
-         packageListClassC: 'n-inc',
-         packageListClassD: 'n-inc',
-         packageListClassE: 'n-inc',
-         symbolA:'/assets/img/icon/check.png',
-         symbolB:'/assets/img/icon/check.png',
-         symbolC:'/assets/img/icon/cross.png',
-         symbolD:'/assets/img/icon/cross.png',
-         symbolE:'/assets/img/icon/cross.png',
-         product:'price_1MkTtqBprPOebpuIiSbjIJsc'
-      },
-      {
-         id: 2,
-         packageIcon: '/assets/img/icon/pricing-icon-2.png',
-         packageName: 'pro package',
-         packagePrice: '$59.00',
-         packageService: 'Gardens Service',
-         packagePlaning: 'Forest Planning',
-         packageParty: 'Gardens Party',
-         packageLandscape: 'Preparing Landscape',
-         packageFence: 'Garden Fence',
-         packageBtn: 'get it now',
-         packageActive: 'single-pricing mb-30 best-package',
-         packageBadge: 'bp-tag',
          packageListClassA: 'no-inc',
          packageListClassB: 'no-inc',
          packageListClassC: 'no-inc',
@@ -53,18 +28,18 @@ const PricingSection = () => {
          symbolC:'/assets/img/icon/check.png',
          symbolD:'/assets/img/icon/cross.png',
          symbolE:'/assets/img/icon/cross.png',
-         product:'https://buy.stripe.com/test_aEUcPh88F3QZ8fK7ss'
+         product:'https://checkout.landscaping.sitedominion.com/c/pay/cs_live_a1BOh5OPjSUOmcqSj5My6qJEw4E8HpbhdUlubWoVaUGjB3z2Sv7yOxxaLa#fidkdWxOYHwnPyd1blppbHNgWjA0SG5RbENHdXdVSmBndXBMTkAwdjM2NFRMVm1zajBQZk9xfzw0akpMSFxiTHZ0dEc0QVM0VGZgXTU2a3xzTEszZl1zQEljMz1DMFV%2FYnNUaHJ8PEdVZDx2NTV9THZcMEdzYycpJ3VpbGtuQH11anZgYUxhJz8nZks3NTVXZG9uYU5%2FMXdGPXJ9J3gl'
       },
       {
-         id: 3,
-         packageIcon: '/assets/img/icon/pricing-icon-3.png',
-         packageName: 'enterprise package',
-         packagePrice: '$69.00',
-         packageService: 'Gardens Service',
-         packagePlaning: 'Forest Planning',
-         packageParty: 'Gardens Party',
-         packageLandscape: 'Preparing Landscape',
-         packageFence: 'Garden Fence',
+         id: 2,
+         packageIcon: '/assets/img/icon/pricing-icon-2.png',
+         packageName: 'pro package',
+         packagePrice: '$69.99',
+         packageService: 'Website Design',
+         packagePlaning: 'Website Development',
+         packageParty: 'Website Deployment',
+         packageLandscape: 'Blog Creation & Setup',
+         packageFence: 'Advanced SEO',
          packageBtn: 'get it now',
          packageActive: 'single-pricing mb-30',
          packageBadge: 'd-none',
@@ -78,21 +53,22 @@ const PricingSection = () => {
          symbolC:'/assets/img/icon/check.png',
          symbolD:'/assets/img/icon/check.png',
          symbolE:'/assets/img/icon/cross.png',
-         product:'price_1MkTtqBprPOebpuIiSbjIJsc'
+         product:'https://checkout.landscaping.sitedominion.com/c/pay/cs_live_a1DVvPM4WvAmRCSvZsyxlampHxdynq3bXFTFNy58Bep9FapUKKDmsk9KXu#fidkdWxOYHwnPyd1blppbHNgWjA0SG5RbENHdXdVSmBndXBMTkAwdjM2NFRMVm1zajBQZk9xfzw0akpMSFxiTHZ0dEc0QVM0VGZgXTU2a3xzTEszZl1zQEljMz1DMFV%2FYnNUaHJ8PEdVZDx2NTV9THZcMEdzYycpJ3VpbGtuQH11anZgYUxhJz8nZEBQZktBZnd2Z0Z3YDdmZkhKJ3gl'
       },
+    
       {
-         id: 4,
+         id: 3,
          packageIcon: '/assets/img/icon/pricing-icon-4.png',
          packageName: 'elite package',
-         packagePrice: '$99.00',
-         packageService: 'Gardens Service',
-         packagePlaning: 'Forest Planning',
-         packageParty: 'Gardens Party',
-         packageLandscape: 'Preparing Landscape',
-         packageFence: 'Garden Fence',
+         packagePrice: '$89.99',
+         packageService: 'Website Design',
+         packagePlaning: 'Website Development',
+         packageParty: 'Website Deployment',
+         packageLandscape: 'Blog Creation & Setup',
+         packageFence: 'Advanced SEO',
          packageBtn: 'get it now',
-         packageActive: 'single-pricing mb-30',
-         packageBadge: 'd-none',
+         packageActive: 'single-pricing mb-30 best-package',
+         packageBadge: 'bp-tag',
          packageListClassA: 'no-inc',
          packageListClassB: 'no-inc',
          packageListClassC: 'no-inc',
@@ -103,7 +79,7 @@ const PricingSection = () => {
          symbolC:'/assets/img/icon/check.png',
          symbolD:'/assets/img/icon/check.png',
          symbolE:'/assets/img/icon/check.png',
-          product:'price_1MkTtqBprPOebpuIiSbjIJsc'
+          product:'https://checkout.landscaping.sitedominion.com/c/pay/cs_live_a1hkKVjlQKAD857wjtAZGB5ceXLppxfC0qISaEAIeKIFwv9IStfTL01rdm#fidkdWxOYHwnPyd1blppbHNgWjA0SG5RbENHdXdVSmBndXBMTkAwdjM2NFRMVm1zajBQZk9xfzw0akpMSFxiTHZ0dEc0QVM0VGZgXTU2a3xzTEszZl1zQEljMz1DMFV%2FYnNUaHJ8PEdVZDx2NTV9THZcMEdzYycpJ3VpbGtuQH11anZgYUxhJz8nZEBQNTVXYXNyMGA2MkFKMG5rJ3gl'
       }
    ]
     return (
@@ -121,7 +97,7 @@ const PricingSection = () => {
                {pricingList &&
                   <div className="row">
                      {pricingList.map((item, num) => (
-                        <div className="col-xl-3 col-lg-4 col-md-6" key={num}>
+                        <div className="col-xl-4 col-lg-4 col-md-12" key={num}>
                            <div className={item.packageActive}>
                            <div className={item.packageBadge}>best choice</div>
                               <div className="pricing-content">
@@ -132,11 +108,11 @@ const PricingSection = () => {
                                  <span className="package-price">{item.packagePrice}</span>
                                  <div className="package-list">
                                     <ul>
-                                       <li className={item.packageListClassA} style={{"display":"flex","justifyContent":"flex-start"}}><img src={item.symbolA} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageService}</li>
-                                       <li className={item.packageListClassB} style={{"display":"flex","justifyContent":"flex-start"}}><img src={item.symbolB} style={{"width":"20px", "marginRight":"5px"}}/>{item.packagePlaning}</li>
-                                       <li className={item.packageListClassC} style={{"display":"flex","justifyContent":"flex-start"}}><img src={item.symbolC} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageParty}</li>
-                                       <li className={item.packageListClassD} style={{"display":"flex","justifyContent":"flex-start"}}><img src={item.symbolD} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageLandscape}</li>
-                                       <li className={item.packageListClassE} style={{"display":"flex","justifyContent":"flex-start"}}><img src={item.symbolE} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageFence}</li>
+                                       <li className={item.packageListClassA} style={{"display":"flex","justifyContent":"center"}}><img src={item.symbolA} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageService}</li>
+                                       <li className={item.packageListClassB} style={{"display":"flex","justifyContent":"center"}}><img src={item.symbolB} style={{"width":"20px", "marginRight":"5px"}}/>{item.packagePlaning}</li>
+                                       <li className={item.packageListClassC} style={{"display":"flex","justifyContent":"center"}}><img src={item.symbolC} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageParty}</li>
+                                       <li className={item.packageListClassD} style={{"display":"flex","justifyContent":"center"}}><img src={item.symbolD} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageLandscape}</li>
+                                       <li className={item.packageListClassE} style={{"display":"flex","justifyContent":"center"}}><img src={item.symbolE} style={{"width":"20px", "marginRight":"5px"}}/>{item.packageFence}</li>
                                     </ul>
                                  </div>
                               </div>
