@@ -4,10 +4,10 @@ const SEO = ({ pageTitle,font }) => (
   <>
     <Head>
       <title>
-        {pageTitle && `${pageTitle} || Site Dominion}`}
+        {pageTitle && `${pageTitle} || Site Dominion | One-Stop Shop for Landscaping Web Design}`}
       </title>
       <meta httpEquiv="x-ua-compatible" content="ie=edge" />
-      <meta name="description" content="One-Stop Shop for Landscaping Web Design" />
+      <meta name="description" content="Site Dominion | One-Stop Shop for Landscaping Web Design" />
       <meta name="robots" content="noindex, follow" />
       <meta
         name="viewport"
