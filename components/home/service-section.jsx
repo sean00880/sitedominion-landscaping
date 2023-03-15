@@ -8,7 +8,7 @@ const ServiceSection = () => {
          <div className="container">
            
             <div className="services-wrapper services-wrapper-2" >
-            <h2> style={{"padding":"2vh"}}Featured Landscaping Website Services</h2>
+            <h2 style={{"padding":"2vh"}}>Featured Landscaping Website Services</h2>
             {ServicesList &&
                 <div className="services-inner services-inner-2 wow fadeInUp" data-wow-delay=".3s">
                     <div className="row g-0">
@@ -20,7 +20,7 @@ const ServiceSection = () => {
                             </div>
                             <div className="single-service-content">
                                 <div className="service-icon">
-                                    <img src='/assets/img/icon/mowing.jpg' className="icon" alt="service-img"/>
+                                    <img src='/assets/img/icon/serviceicon8.png' className="icon" alt="service-img"/>
                                 </div>
                                 <h4 className="service-title"><Link href={`/service-details/5`}><a>Landscaping Multi-Service Website Development</a></Link></h4>
                                 <p>Get expert advice on how to design a garden.</p>
@@ -50,8 +50,7 @@ const ServiceSection = () => {
                   <div className="service-action-bg-shape">
                      <img src="/assets/img/shape/pattern-1270.png" alt="shape-img"/>
                   </div>
-                  <h3>Provides Hassle-Free Backyard Transformations
-                     with Artistic Solutions.</h3>
+                  <h3>Website Solutions for All Landscapnig Business Models</h3>
                     <Link href="/#pricing"><a className="fill-btn-rounded"><i className="fal fa-farm"></i><span>View Pricing</span></a></Link>
                </div>
             </div>

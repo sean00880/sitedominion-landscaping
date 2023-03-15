@@ -6,6 +6,7 @@ const ServicesList = [
         serviceTitle:'Landscaping & Lawncare Website Development',
         serviceBadge:'',
         serviceDesc:'Get expert advice on how to design a garden.',
+        p1:""
 
     },
     {
@@ -92,31 +93,43 @@ const ServicesList = [
     },
     //home three service end
     {
-        id:11,
+        id:'website-design-and-development',
         serviceImg:'',
         serviceIcon:'/assets/img/service/development.svg',
         serviceTitle:'Step 1: Website Design & Development',
         serviceBadge:'',
         serviceDesc:'In this stage, your website is designed. We leverage the powers of NextJs and use best programming practices to deliver websites with modern UI/UX.',
         serviceBtn:'read more',
+        para1:"The Website Design and Development process for a landscaping business starts with gathering information about the business owner's goals, objectives, and target audience. Then, the web designer will plan the website's layout, design, and features, analyze the competition, and create strategies to make the website stand out. The website's content will be created, including writing the copy, selecting images, and creating any necessary graphics. The designer will then create a mockup of the website's design, and the business owner will review and provide feedback. Once the design is approved, the development team will start building the website, creating the website's structure, adding functionality, and ensuring that the website is responsive and user-friendly. A well-designed and well-developed website can attract new customers, showcase services and pricing, and establish the business as a reputable and trustworthy source in the industry. ",
+        img1:'/assets/img/service/development.svg',
+        img2:'/assets/img/service/service-sub1.jpg',
+        img3:'/assets/img/service/service-sub2.jpg'
     },
     {
-        id:12,
+        id:'website-deployment',
         serviceImg:'',
         serviceIcon:'/assets/img/service/seo.svg',
         serviceTitle:'Step 2: Website Deployment',
         serviceBadge:'',
         serviceDesc:'In this stage, your website is pushed into deployment. We setup hosting, domain as well as all of the DNS configurations for your website.',
         serviceBtn:'read more',
+        para1:"The next step after designing and developing a website for a landscaping company is to launch the website. In order to achieve this, you must purchase a domain name, which serves as the website's URL. To register and maintain the domain name, we use domain registrars like GoDaddy, Namecheap, or Google Domains. The DNS (Domain Name System) for the domain is then configured to point to the web hosting provider where the website will be kept. The hosting service will house the website's files and databases, so choosing a reputable hosting company that can handle website traffic and provides security features like SSL certificates is crucial. To launch our websites, we utilize Vercel and sometimes collaborate with hosting companies like Bluehost, HostGator, or SiteGround. Lastly, we configure any necessary settings, upload the website's files and database to the hosting company, and test the website to make sure everything is operating properly before launching it. By adhering to this procedure, we can make sure that the websites of our clients are reliable and safe, and that their target audience can access them.",
+        img1:'/assets/img/service/seo.svg',
+        img2:'/assets/img/service/service-sub3.jpg',
+        img3:'/assets/img/service/service-sub4.jpg'
     },
     {
-        id:13,
+        id:'blog-development-seo',
         serviceImg:'',
         serviceIcon:'/assets/img/service/deployment.svg',
         serviceTitle:'Step 3: Blog Development + SEO',
         serviceBadge:'',
         serviceDesc:'Lastly, we setup your blog, add canonical tags, meta tags and a website sitemap to further improve SEO. This helps with getting more visibility via search engines.',
         serviceBtn:'read more',
+        para1:"When we set up a blog using Next.js for a landscaping business website, we follow a process that involves several steps. First, we create a new Next.js project and install the necessary dependencies to enable blog functionality, such as a markdown parser and a blog post data source. We then create a template for the blog posts and set up a dynamic routing system that generates a unique URL for each blog post. To ensure that the blog is optimized for search engines, we conduct thorough keyword research and incorporate the keywords into the blog post titles, URLs, and content. We also use meta tags to provide search engines with additional information about the blog posts, such as descriptions and images. We make sure to include social media sharing buttons on each blog post to encourage readers to share the content on their social media platforms, which can also improve the blog's SEO. Finally, we set up a sitemap and submit it to search engines like Google to ensure that all the blog's content is properly indexed. By following this process, we can create a blog for our clients that is optimized for search engines and helps attract new visitors to their website.",
+        img2:'/assets/img/service/service-sub5.jpg',
+        img1:'/assets/img/service/deployment.svg',
+        img3:'/assets/img/service/service-sub6.jpg'
     },
     //home four service end
     {

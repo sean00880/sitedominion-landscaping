@@ -1,6 +1,9 @@
 @use "../abstract" as *;
 
 .page-title-area {
+	background-image: url(../../img/bg/landscapinglogo.png);
+	background-attachment:fixed;
+	background-position:center;
 	height: 500px;
 	display: flex;
 	align-items: center;
@@ -36,6 +39,12 @@
 		width: 100%;
 		height: 100%;
 		z-index: -1;
+	}
+}
+
+@media (hover: none){
+	.page-title-area{
+		background-attachment: scroll;
 	}
 }
 .page-title-wrapper {

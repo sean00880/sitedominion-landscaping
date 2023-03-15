@@ -12,7 +12,7 @@ const HeaderTop = () => {
                                     <i className="fas fa-phone"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><a href="tel:78989700098">789 897 000 98</a></p>
+                                    <p><a href="tel:78989700098">+1(571)599-4889</a></p>
                                 </div>
                             </div>
                             <div className="meta-item">
@@ -20,7 +20,7 @@ const HeaderTop = () => {
                                     <i className="fas fa-envelope-open"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p><a href="mailto:info@gardomia.com">info@gardomia.com</a></p>
+                                    <p><a href="mailto:info@gardomia.com">official@sitedominion.xyz</a></p>
                                 </div>
                             </div>
                         </div>
@@ -32,8 +32,8 @@ const HeaderTop = () => {
                                     <i className="fas fa-clock"></i>
                                 </div>
                                 <div className="meta-item-text">
-                                    <p>Mon - Fri: 9:00 - 19:00<span className="d-none d-xl-inline-block">/ Closed on 
-                                        <strong> Weekends</strong></span>
+                                    <p>Mon - Sat: 9:00 - 22:00<span className="d-none d-xl-inline-block">/ Closed on 
+                                        <strong> Sunday</strong></span>
                                     </p>
                                 </div>
                             </div>
@@ -41,10 +41,9 @@ const HeaderTop = () => {
                         <div className="header-top-social">
                             <div className="social-links">
                                 <ul>
-                                    <li><a href="#"><i className="fab fa-youtube"></i></a></li>
-                                    <li><a href="#"><i className="fab fa-linkedin"></i></a></li>
-                                    <li><a href="#"><i className="fab fa-twitter"></i></a></li>
-                                    <li><a href="#"><i className="fab fa-facebook-f"></i></a></li>
+                                    <li><a href="https://www.instagram.com/sitedominionofficial/"><i className="fab fa-instagram"></i></a></li>
+                                    <li><a href="https://www.twitter.com/sitedominion/"><i className="fab fa-twitter"></i></a></li>
+                                    <li><a href="https://www.facebook.com/sitedominion"><i className="fab fa-facebook-f"></i></a></li>
                                 </ul>
                             </div>
                         </div>
