@@ -9,8 +9,8 @@ const PricingSection = () => {
          id: 1,
          packageIcon: '/assets/img/icon/pricing-icon-1.png',
          packageName: 'basic package',
-         packagePrice: '$49.99',
-         packageService: 'Website Design',
+         packagePrice: '$399.99',
+         packageService: 'Basic Website Design',
          packagePlaning: 'Website Development',
          packageParty: 'Website Deployment',
          packageLandscape: 'Blog Creation & Setup',
@@ -28,14 +28,14 @@ const PricingSection = () => {
          symbolC:'/assets/img/icon/check.png',
          symbolD:'/assets/img/icon/cross.png',
          symbolE:'/assets/img/icon/cross.png',
-         product:'https://checkout.landscaping.sitedominion.com/c/pay/cs_live_a1BOh5OPjSUOmcqSj5My6qJEw4E8HpbhdUlubWoVaUGjB3z2Sv7yOxxaLa#fidkdWxOYHwnPyd1blppbHNgWjA0SG5RbENHdXdVSmBndXBMTkAwdjM2NFRMVm1zajBQZk9xfzw0akpMSFxiTHZ0dEc0QVM0VGZgXTU2a3xzTEszZl1zQEljMz1DMFV%2FYnNUaHJ8PEdVZDx2NTV9THZcMEdzYycpJ3VpbGtuQH11anZgYUxhJz8nZks3NTVXZG9uYU5%2FMXdGPXJ9J3gl'
+         product:'https://buy.stripe.com/7sI4h70IKdKz6zK28c'
       },
       {
          id: 2,
          packageIcon: '/assets/img/icon/pricing-icon-2.png',
          packageName: 'pro package',
-         packagePrice: '$69.99',
-         packageService: 'Website Design',
+         packagePrice: '$699.99',
+         packageService: 'Premium Website Design',
          packagePlaning: 'Website Development',
          packageParty: 'Website Deployment',
          packageLandscape: 'Blog Creation & Setup',
@@ -53,15 +53,15 @@ const PricingSection = () => {
          symbolC:'/assets/img/icon/check.png',
          symbolD:'/assets/img/icon/check.png',
          symbolE:'/assets/img/icon/cross.png',
-         product:'https://checkout.landscaping.sitedominion.com/c/pay/cs_live_a1DVvPM4WvAmRCSvZsyxlampHxdynq3bXFTFNy58Bep9FapUKKDmsk9KXu#fidkdWxOYHwnPyd1blppbHNgWjA0SG5RbENHdXdVSmBndXBMTkAwdjM2NFRMVm1zajBQZk9xfzw0akpMSFxiTHZ0dEc0QVM0VGZgXTU2a3xzTEszZl1zQEljMz1DMFV%2FYnNUaHJ8PEdVZDx2NTV9THZcMEdzYycpJ3VpbGtuQH11anZgYUxhJz8nZEBQZktBZnd2Z0Z3YDdmZkhKJ3gl'
+         product:'https://buy.stripe.com/5kAfZPezA9ujf6gcMR'
       },
     
       {
          id: 3,
          packageIcon: '/assets/img/icon/pricing-icon-4.png',
          packageName: 'elite package',
-         packagePrice: '$89.99',
-         packageService: 'Website Design',
+         packagePrice: '$899.99',
+         packageService: 'Enterprise Website Design',
          packagePlaning: 'Website Development',
          packageParty: 'Website Deployment',
          packageLandscape: 'Blog Creation & Setup',
@@ -79,7 +79,7 @@ const PricingSection = () => {
          symbolC:'/assets/img/icon/check.png',
          symbolD:'/assets/img/icon/check.png',
          symbolE:'/assets/img/icon/check.png',
-          product:'https://checkout.landscaping.sitedominion.com/c/pay/cs_live_a1hkKVjlQKAD857wjtAZGB5ceXLppxfC0qISaEAIeKIFwv9IStfTL01rdm#fidkdWxOYHwnPyd1blppbHNgWjA0SG5RbENHdXdVSmBndXBMTkAwdjM2NFRMVm1zajBQZk9xfzw0akpMSFxiTHZ0dEc0QVM0VGZgXTU2a3xzTEszZl1zQEljMz1DMFV%2FYnNUaHJ8PEdVZDx2NTV9THZcMEdzYycpJ3VpbGtuQH11anZgYUxhJz8nZEBQNTVXYXNyMGA2MkFKMG5rJ3gl'
+          product:'https://buy.stripe.com/4gwbJz4Z0eOD2ju8wC'
       }
    ]
     return (
