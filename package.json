@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@fontsource/alumni-sans": "^4.5.13",
+    "@fontsource/exo-2": "^4.5.11",
     "@fontsource/playfair-display": "^4.5.13",
     "@popperjs/core": "^2.11.5",
     "@react-native-async-storage/async-storage": "^1.17.7",

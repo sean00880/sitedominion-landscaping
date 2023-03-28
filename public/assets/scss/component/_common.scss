@@ -42,6 +42,7 @@
     01. common CSS
 ----------------------------------------*/
 @import "@fontsource/alumni-sans";
+@import "@fontsource/exo-2";
 @import "@fontsource/playfair-display";
 
 * {
@@ -50,7 +51,7 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: "Playfair Display",serif;
+	font-family: "Exo 2",serif;
 	font-size: 16px;
 	font-weight: normal;
 	color: var(--clr-common-text);
@@ -132,7 +133,7 @@ h3,
 h4,
 h5,
 h6 {
-	font-family: "Alumni Sans",sans-serif;
+	font-family: "Exo 2",sans-serif;
 	color: var(--clr-common-heading);
 	margin-top: 0px;
 	font-weight: 300;
