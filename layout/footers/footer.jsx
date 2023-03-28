@@ -15,18 +15,15 @@ const FooterOne = () => {
                                 <div className="footer-widget-title">
                                     <h4>about us</h4>
                                 </div>
-                                <p className="mb-35">Is that lawn is an open space between woods
-                                    or lawn can be uncountable a type of thin linen
-                                    or cotton while garden is an outdoor area
-                                    containing one or more types of plants</p>
+                                <p className="mb-35">Welcome to our website, where we specialize in offering top-notch websites and online services to landscaping businesses. Our staff is committed to assisting companies in the landscaping sector to flourish by developing successful internet presences.</p>
                                 <div className="footer-support">
                                     <div className="irc-item support-meta">
                                         <div className="irc-item-icon">
                                             <i className="fas fa-phone-alt"></i>
                                         </div>
                                         <div className="irc-item-content">
-                                            <p>Emergency Call</p>
-                                            <div className="support-number"><a href="tel:98965963168">989 659 631 68</a></div>
+                                            <p>Text Us</p>
+                                            <div className="support-number"><a href="tel:98965963168">+1(571)599-4889</a></div>
                                         </div>
                                     </div>
                                 </div>

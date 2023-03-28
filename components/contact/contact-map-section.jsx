@@ -23,7 +23,7 @@ const ContactMapSection = () => {
                </div>
                <div className="col-lg-4">
                   <div className="info-item-wrapper info-wrapper-media">
-                     <h4 className="contact-info-title">head quarter</h4>
+                     <h4 className="contact-info-title">Location</h4>
                      <div className="info-contact">
                         <ul>
                            <li>
@@ -31,7 +31,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-phone"></i>
                                  </div>
-                                 <p><a href="tel:1-800-700-600">1-800-700-600</a></p>
+                                 <p><a href="tel:1-800-700-600">+1(571)599-4889</a></p>
                               </div>
                            </li>
                            <li>
@@ -39,7 +39,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-envelope-open"></i>
                                  </div>
-                                 <p><a href="mailto:info@bdevs-email.com">info@bdevs-email.com</a></p>
+                                 <p><a href="mailto:info@bdevs-email.com">official@sitedominion.xyz</a></p>
                               </div>
                            </li>
                            <li>
@@ -47,8 +47,7 @@ const ContactMapSection = () => {
                                  <div className="contact-icon">
                                     <i className="fas fa-map-marked-alt"></i>
                                  </div>
-                                 <p><a href="#">60 East 65th Street, New York
-                                       City, NY 10065</a></p>
+                                 <p><a href="#">Ashburn, VA - 20147</a></p>
                               </div>
                            </li>
                         </ul>
@@ -62,19 +61,13 @@ const ContactMapSection = () => {
                         <ul>
                            <li>
                               <div className="info-date">
-                                 <span>Sat - mon</span>
-                                 <span>10:00 am - 8:00 pm</span>
+                                 <span>Sat - Friday</span>
+                                 <span>9:00 am - 10:00 pm</span>
                               </div>
                            </li>
                            <li>
                               <div className="info-date">
-                                 <span>mon - thu</span>
-                                 <span>11:00 am - 6:00 pm</span>
-                              </div>
-                           </li>
-                           <li>
-                              <div className="info-date">
-                                 <span>friday</span>
+                                 <span>Sunday</span>
                                  <span>off-day</span>
                               </div>
                            </li>
